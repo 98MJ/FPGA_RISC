@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue May 28 17:17:55 2024
+# Process ID: 9608
+# Current directory: D:/FPGA_RISC/20240528_Dedicated_Processor_0+9_Counter/20240528_Dedicated_Processor_0+9_Counter.runs/synth_1
+# Command line: vivado.exe -log Dedicated_Process.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Dedicated_Process.tcl
+# Log file: D:/FPGA_RISC/20240528_Dedicated_Processor_0+9_Counter/20240528_Dedicated_Processor_0+9_Counter.runs/synth_1/Dedicated_Process.vds
+# Journal file: D:/FPGA_RISC/20240528_Dedicated_Processor_0+9_Counter/20240528_Dedicated_Processor_0+9_Counter.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Dedicated_Process.tcl -notrace
