@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../20240529_DedicatedProcessor_RegisterFile.srcs/sources_1/new/controlunit.sv" \
+"../../../../20240529_DedicatedProcessor_RegisterFile.srcs/sources_1/new/datapath.sv" \
+"../../../../20240529_DedicatedProcessor_RegisterFile.srcs/sources_1/new/dedicatedprocess.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
