@@ -1,0 +1,13 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/FPGA_RISC/20240531_RISCV_R_I_TYPE/20240530_RISCV_R_TYPE.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+D:/FPGA_RISC/20240531_RISCV_R_I_TYPE/20240530_RISCV_R_TYPE.srcs/sim_1/new/tb_RV32I.sv,1717046920,systemVerilog,,,,tb_RV32I,,uvm,,,,,,
+D:/FPGA_RISC/20240531_RISCV_R_I_TYPE/20240530_RISCV_R_TYPE.srcs/sources_1/new/CPU_Core.sv,1717132290,systemVerilog,,D:/FPGA_RISC/20240531_RISCV_R_I_TYPE/20240530_RISCV_R_TYPE.srcs/sources_1/new/ControlUnit.sv,,CPU_Core,,uvm,,,,,,
+D:/FPGA_RISC/20240531_RISCV_R_I_TYPE/20240530_RISCV_R_TYPE.srcs/sources_1/new/ControlUnit.sv,1717131891,systemVerilog,,D:/FPGA_RISC/20240531_RISCV_R_I_TYPE/20240530_RISCV_R_TYPE.srcs/sources_1/new/DataMemory.sv,D:/FPGA_RISC/20240531_RISCV_R_I_TYPE/20240530_RISCV_R_TYPE.srcs/sources_1/new/defines.sv,ControlUnit,,uvm,,,,,,
+D:/FPGA_RISC/20240531_RISCV_R_I_TYPE/20240530_RISCV_R_TYPE.srcs/sources_1/new/DataMemory.sv,1717056282,systemVerilog,,D:/FPGA_RISC/20240531_RISCV_R_I_TYPE/20240530_RISCV_R_TYPE.srcs/sources_1/new/DataPath.sv,,DataMemory,,uvm,,,,,,
+D:/FPGA_RISC/20240531_RISCV_R_I_TYPE/20240530_RISCV_R_TYPE.srcs/sources_1/new/DataPath.sv,1717132660,systemVerilog,,D:/FPGA_RISC/20240531_RISCV_R_I_TYPE/20240530_RISCV_R_TYPE.srcs/sources_1/new/InstructionMemory.sv,D:/FPGA_RISC/20240531_RISCV_R_I_TYPE/20240530_RISCV_R_TYPE.srcs/sources_1/new/defines.sv,ALU;DataPath;Register;RegisterFile;adder;extend;mux_2x1,,uvm,,,,,,
+D:/FPGA_RISC/20240531_RISCV_R_I_TYPE/20240530_RISCV_R_TYPE.srcs/sources_1/new/InstructionMemory.sv,1717133413,systemVerilog,,D:/FPGA_RISC/20240531_RISCV_R_I_TYPE/20240530_RISCV_R_TYPE.srcs/sources_1/new/RV32I.sv,,instructionMemory,,uvm,,,,,,
+D:/FPGA_RISC/20240531_RISCV_R_I_TYPE/20240530_RISCV_R_TYPE.srcs/sources_1/new/RV32I.sv,1717055631,systemVerilog,,D:/FPGA_RISC/20240531_RISCV_R_I_TYPE/20240530_RISCV_R_TYPE.srcs/sim_1/new/tb_RV32I.sv,,RV32I,,uvm,,,,,,
+D:/FPGA_RISC/20240531_RISCV_R_I_TYPE/20240530_RISCV_R_TYPE.srcs/sources_1/new/defines.sv,1717119169,verilog,,,,,,,,,,,,
