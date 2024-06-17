@@ -4,6 +4,7 @@ Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 5ac1f47a4f
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'conSel' is not connected on this instance [D:/FPGA_RISC/20240531_RISCV_R_I_TYPE/20240530_RISCV_R_TYPE.srcs/sources_1/new/CPU_Core.sv:33]
 Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
@@ -13,6 +14,7 @@ Compiling module xil_defaultlib.RegisterFile
 Compiling module xil_defaultlib.mux_2x1
 Compiling module xil_defaultlib.extend
 Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.mux_8x1
 Compiling module xil_defaultlib.Register
 Compiling module xil_defaultlib.adder
 Compiling module xil_defaultlib.DataPath

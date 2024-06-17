@@ -11,21 +11,24 @@ module CPU_Core(
     input  logic [31:0] dataMemRD
     );
 
-    logic w_regFilewe, ALUSrcMuxSel, RFWDSrcMuxSel, w_branch;
+    logic w_regFilewe, ALUSrcMuxSel, w_branch;
     logic [3:0] w_aluControl;
-    logic [2:0] w_extType;
+    logic [2:0] w_extType, w_RFWDSrcMuxSel;
 
 ControlUnit U_CU(
     .op(machineCode[6:0]), //tpye select
     .func3(machineCode[14:12]),
     .func7(machineCode[31:25]),
+    .imm(machineCode[31:25]),
     .regFilewe(w_regFilewe),
     .ALUSrcMuxSel(w_AluSrcMuxSel),
     .RFWDSrcMuxSel(w_RFWDSrcMuxSel),
     .dataMemWe(dataMemWe),
     .extType(w_extType),
     .aluControl(w_aluControl),
-    .branch(w_branch)
+    .branch(w_branch),
+    .PCSrcMuxSel(w_PCSrcMuxSel),
+    .rsPCMuxSel(w_rsPCMuxSel)
 );
 DataPath U_DP(
     .clk(clk),
@@ -40,7 +43,9 @@ DataPath U_DP(
     .dataMemRAddr(dataMemRAddr),
     .dataMemWD(dataMemWD),
     .dataMemRD(dataMemRD),
-    .branch(w_branch)
+    .branch(w_branch),
+    .PCSrcMuxSel(w_PCSrcMuxSel),
+    .rsPCMuxSel(w_rsPCMuxSel)
     );
 
 endmodule

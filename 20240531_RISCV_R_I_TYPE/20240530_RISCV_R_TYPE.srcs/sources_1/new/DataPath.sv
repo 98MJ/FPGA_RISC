@@ -7,17 +7,20 @@ module DataPath(
     input  logic [31:0] machineCode,
     input  logic        regFilewe,
     input  logic        ALUSrcMuxSel,
-    input  logic        RFWDSrcMuxSel,
+    input  logic [2:0]  RFWDSrcMuxSel,
     input  logic [3:0]  aluControl,
     input  logic [2:0]  extType,
     output logic [31:0] instrMemRAddr,
     output logic [31:0] dataMemRAddr,
     output logic [31:0] dataMemWD,
     input  logic [31:0] dataMemRD,
-    input  logic        branch
+    input  logic        branch,
+    input  logic        PCSrcMuxSel,
+    input  logic        rsPCMuxSel,
+    input  logic [1:0]  conSel
     //input  logic        btaken
     );
-    logic [31:0] w_ALUResult, w_RegFileRData1, w_RegFileRData2, w_PC_Data;
+    logic [31:0] w_ALUResult, w_RegFileRData1, w_RegFileRData2, w_PC_Data, w_PCSrcMuxOut, w_PCRAMOut, w_rsPCMuxOut;
     logic [31:0] w_ALUSrcMuxOut, w_extendOut, w_RFWDSrcMuxOut, w_PCAdderSrcMuxOut;
     logic        w_btaken, w_PCAdderSrcMuxSel;
 
@@ -57,17 +60,21 @@ module DataPath(
         .btaken(w_btaken)
     );
 
-    mux_2x1 U_RFWDSrcMux(
+    mux_8x1 U_RFWDSrcMux(
         .sel(RFWDSrcMuxSel),
         .a(w_ALUResult),
         .b(dataMemRD),
+        .c(w_extendOut),
+        .d(w_PCRAMOut),
+        .e(w_PC_Data),
+        .f(),
         .y(w_RFWDSrcMuxOut)
     );
 
     Register U_PC (
         .clk(clk),
         .reset(reset),
-        .d(w_PC_Data),
+        .d(w_PCSrcMuxOut),
         .q(instrMemRAddr)
     );
     assign w_PCAdderSrcMuxSel = branch & w_btaken;
@@ -81,6 +88,30 @@ module DataPath(
         .a(instrMemRAddr),
         .b(w_PCAdderSrcMuxOut),
         .y(w_PC_Data)
+    );
+    mux_2x1 U_PCSrcMux(
+        .sel(PCSrcMuxSel),
+        .a(w_PC_Data),
+        .b(w_PCRAMOut),
+        .y(w_PCSrcMuxOut)
+    );
+
+    mux_2x1 U_rsPCMux(
+        .sel(rsPCMuxSel),
+        .a(w_RegFileRData1),
+        .b(instrMemRAddr),
+        .y(w_rsPCMuxOut)
+    );
+    adder U_Adder_PC_RAM(
+        .a(w_extendOut),
+        .b(w_rsPCMuxOut),
+        .y(w_PCRAMOut)
+    );
+
+    contract U_contract(
+        .a(),
+        .conSel(conSel),
+        .out()
     );
 endmodule
 
@@ -181,16 +212,33 @@ module extend (
 );
     always_comb begin 
         case(extType)
-            3'b000: immext = {{21{instr[31]}}, instr[30:20]}; // I
-            3'b001: immext = {{21{instr[31]}}, instr[30:25], instr[11:7]}; // S
-            3'b010: immext = {{20{instr[31]}}, instr[7],instr[30:25],instr[11:8], 1'b0}; // B
-            3'b011: immext = {{instr[31]}, instr[30:20],instr[19:12],{12{1'b0}}}; // U
-            3'b100: immext = {{12{instr[31]}},instr[19:12],instr[20], instr[30:21],1'b0}; // J
+            3'b000: immext = {{21{instr[31]}}, instr[30:20]};                               // I
+            3'b001: immext = {{21{instr[31]}}, instr[30:25], instr[11:7]};                  // S
+            3'b010: immext = {{20{instr[31]}}, instr[7],instr[30:25],instr[11:8], 1'b0};    // B
+            3'b011: immext = {{instr[31]}, instr[30:20],instr[19:12],{12{1'b0}}};           // U
+            3'b100: immext = {{27{instr[31]}}, instr[24:20]};
+            3'b101: immext = {{12{instr[31]}},instr[19:12],instr[20], instr[30:21],1'b0};   // J 
         endcase
         
     end
     //assign immext = {{20{instr[31]}}, instr[31:20]}; //MSB값 갯수만큼 확장
     //2의 보수 원리`
+endmodule
+
+module contract(
+    input  logic [31:0] a,
+    input  logic [1:0] conSel,
+    output logic [31:0] out
+);
+    always_comb begin 
+        case (conSel)
+            2'b00: out = a;
+            2'b01: out = {16'b0, a[15:0]};
+            2'b10: out = {24'b0, a[7:0]};
+            default: out = a;
+        endcase
+    end
+
 endmodule
 
 module mux_2x1(
@@ -206,4 +254,30 @@ module mux_2x1(
         endcase
     end
 
+endmodule
+
+module mux_8x1 (
+    input  logic [2:0]  sel,
+    input  logic [31:0] a,
+    input  logic [31:0] b,
+    input  logic [31:0] c,
+    input  logic [31:0] d,
+    input  logic [31:0] e,
+    input  logic [31:0] f,
+    input  logic [31:0] g,
+    input  logic [31:0] h,
+    output logic [31:0] y
+);
+    always_comb begin
+        case (sel)
+            3'b000: y = a;
+            3'b001: y = b;
+            3'b010: y = c;
+            3'b011: y = d;
+            3'b100: y = e;
+            3'b101: y = f;
+            3'b110: y = g;
+            3'b111: y = h;
+        endcase
+    end
 endmodule
