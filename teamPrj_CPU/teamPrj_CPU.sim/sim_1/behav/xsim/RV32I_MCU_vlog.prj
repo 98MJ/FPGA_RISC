@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../teamPrj_CPU.srcs/sources_1/imports/new/BUS_Interconnector.sv" \
+"../../../../teamPrj_CPU.srcs/sources_1/imports/new/CPU_Core.sv" \
+"../../../../teamPrj_CPU.srcs/sources_1/imports/new/ControlUnit.sv" \
+"../../../../teamPrj_CPU.srcs/sources_1/imports/new/DataMemory.sv" \
+"../../../../teamPrj_CPU.srcs/sources_1/imports/new/DataPath.sv" \
+"../../../../teamPrj_CPU.srcs/sources_1/imports/new/FIFO.sv" \
+"../../../../teamPrj_CPU.srcs/sources_1/imports/new/FND.sv" \
+"../../../../teamPrj_CPU.srcs/sources_1/imports/new/GPI.sv" \
+"../../../../teamPrj_CPU.srcs/sources_1/imports/new/GPIO.sv" \
+"../../../../teamPrj_CPU.srcs/sources_1/imports/new/GPO.sv" \
+"../../../../teamPrj_CPU.srcs/sources_1/imports/new/InstructionMemory.sv" \
+"../../../../teamPrj_CPU.srcs/sources_1/imports/new/UART.sv" \
+"../../../../teamPrj_CPU.srcs/sources_1/imports/new/UART_FIFO.sv" \
+"../../../../teamPrj_CPU.srcs/sources_1/imports/new/UART_FIFO_IP.sv" \
+"../../../../teamPrj_CPU.srcs/sources_1/new/button.sv" \
+"../../../../teamPrj_CPU.srcs/sources_1/imports/new/fndController.sv" \
+"../../../../teamPrj_CPU.srcs/sources_1/imports/new/RV32I.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
