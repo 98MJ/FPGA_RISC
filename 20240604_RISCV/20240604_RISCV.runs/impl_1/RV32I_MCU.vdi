@@ -1,0 +1,1454 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Jun  5 09:25:44 2024
+# Process ID: 18200
+# Current directory: D:/FPGA_RISC/20240604_RISCV/20240604_RISCV.runs/impl_1
+# Command line: vivado.exe -log RV32I_MCU.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source RV32I_MCU.tcl -notrace
+# Log file: D:/FPGA_RISC/20240604_RISCV/20240604_RISCV.runs/impl_1/RV32I_MCU.vdi
+# Journal file: D:/FPGA_RISC/20240604_RISCV/20240604_RISCV.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source RV32I_MCU.tcl -notrace
+Command: link_design -top RV32I_MCU -part xc7a35tcpg236-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 1104.426 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 336 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/FPGA_RISC/20240604_RISCV/20240604_RISCV.srcs/constrs_1/imports/Verilog/MY_Basys-3-Master.xdc]
+Finished Parsing XDC File [D:/FPGA_RISC/20240604_RISCV/20240604_RISCV.srcs/constrs_1/imports/Verilog/MY_Basys-3-Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1104.426 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 36 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 4 instances
+  RAM256X1S => RAM256X1S (MUXF7(x2), MUXF8, RAMS64E(x4)): 32 instances
+
+7 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1104.426 ; gain = 0.000
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.637 . Memory (MB): peak = 1104.426 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 1336c80fc
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1451.258 ; gain = 346.832
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1852e8d59
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.103 . Memory (MB): peak = 1659.984 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 10 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 19ef1c474
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.119 . Memory (MB): peak = 1659.984 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 237c8f730
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.137 . Memory (MB): peak = 1659.984 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 4 cells and removed 0 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 237c8f730
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.168 . Memory (MB): peak = 1659.984 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 237c8f730
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.171 . Memory (MB): peak = 1659.984 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 237c8f730
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.177 . Memory (MB): peak = 1659.984 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |              10  |                                              0  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               4  |               0  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1659.984 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 156287ad8
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.201 . Memory (MB): peak = 1659.984 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 156287ad8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1659.984 ; gain = 0.000
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 156287ad8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1659.984 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1659.984 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 156287ad8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1659.984 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+24 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1659.984 ; gain = 555.559
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 1659.984 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/FPGA_RISC/20240604_RISCV/20240604_RISCV.runs/impl_1/RV32I_MCU_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file RV32I_MCU_drc_opted.rpt -pb RV32I_MCU_drc_opted.pb -rpx RV32I_MCU_drc_opted.rpx
+Command: report_drc -file RV32I_MCU_drc_opted.rpt -pb RV32I_MCU_drc_opted.pb -rpx RV32I_MCU_drc_opted.rpx
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file D:/FPGA_RISC/20240604_RISCV/20240604_RISCV.runs/impl_1/RV32I_MCU_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1708.098 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: e8c36770
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1708.098 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1708.098 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: f14ba855
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.200 . Memory (MB): peak = 1708.098 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 1eab58225
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.533 . Memory (MB): peak = 1708.098 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 1eab58225
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.536 . Memory (MB): peak = 1708.098 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 1eab58225
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.540 . Memory (MB): peak = 1708.098 ; gain = 0.000
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 1859c624f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.698 . Memory (MB): peak = 1708.098 ; gain = 0.000
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: 161c8a6c4
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.801 . Memory (MB): peak = 1708.098 ; gain = 0.000
+
+Phase 2.3 Global Placement Core
+
+Phase 2.3.1 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 170 LUTNM shape to break, 30 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 2, two critical 168, total 170, new lutff created 0
+INFO: [Physopt 32-775] End 1 Pass. Optimized 185 nets or cells. Created 170 new cells, deleted 15 existing cells and moved 0 existing cell
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-1123] No candidate cells found for Shift Register to Pipeline optimization
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-677] No candidate cells for Shift Register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-526] No candidate cells for BRAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-846] No candidate cells for URAM register optimization found in the design
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1708.098 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |          170  |             15  |                   185  |           0  |           1  |  00:00:00  |
+|  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |          170  |             15  |                   185  |           0  |           8  |  00:00:00  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.3.1 Physical Synthesis In Placer | Checksum: 127b3b5a9
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:03 . Memory (MB): peak = 1708.098 ; gain = 0.000
+Phase 2.3 Global Placement Core | Checksum: 1974b5295
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:03 . Memory (MB): peak = 1708.098 ; gain = 0.000
+Phase 2 Global Placement | Checksum: 1974b5295
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:03 . Memory (MB): peak = 1708.098 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 2072aab58
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:04 . Memory (MB): peak = 1708.098 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 129ca87b4
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:04 . Memory (MB): peak = 1708.098 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 1435cb593
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:04 . Memory (MB): peak = 1708.098 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 1774e5c4b
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:04 . Memory (MB): peak = 1708.098 ; gain = 0.000
+
+Phase 3.5 Fast Optimization
+Phase 3.5 Fast Optimization | Checksum: 11df737da
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1708.098 ; gain = 0.000
+
+Phase 3.6 Small Shape Detail Placement
+Phase 3.6 Small Shape Detail Placement | Checksum: 145c10ecb
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1708.098 ; gain = 0.000
+
+Phase 3.7 Re-assign LUT pins
+Phase 3.7 Re-assign LUT pins | Checksum: 1c0c93083
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1708.098 ; gain = 0.000
+
+Phase 3.8 Pipeline Register Optimization
+Phase 3.8 Pipeline Register Optimization | Checksum: 19f22d3f0
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1708.098 ; gain = 0.000
+
+Phase 3.9 Fast Optimization
+Phase 3.9 Fast Optimization | Checksum: 24d6a35ec
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1708.098 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 24d6a35ec
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1708.098 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 1b2da681c
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-6.840 | TNS=-7282.970 |
+Phase 1 Physical Synthesis Initialization | Checksum: 1712d4d81
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.071 . Memory (MB): peak = 1708.098 ; gain = 0.000
+INFO: [Place 46-56] BUFG insertion identified 0 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to Illegal Netlist: 0.
+Ending Physical Synthesis Task | Checksum: 18c45b69c
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.076 . Memory (MB): peak = 1708.098 ; gain = 0.000
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1b2da681c
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1708.098 ; gain = 0.000
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-4.460. For the most accurate timing information please run report_timing.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:26 . Memory (MB): peak = 1708.098 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 10c24193f
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:26 . Memory (MB): peak = 1708.098 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 10c24193f
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:26 . Memory (MB): peak = 1708.098 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+INFO: [Place 30-612] Post-Placement Estimated Congestion 
+ ____________________________________________________
+|           | Global Congestion | Short Congestion  |
+| Direction | Region Size       | Region Size       |
+|___________|___________________|___________________|
+|      North|                2x2|                4x4|
+|___________|___________________|___________________|
+|      South|                1x1|                2x2|
+|___________|___________________|___________________|
+|       East|                2x2|                1x1|
+|___________|___________________|___________________|
+|       West|                1x1|                1x1|
+|___________|___________________|___________________|
+
+Phase 4.3.1 Print Estimated Congestion | Checksum: 10c24193f
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:26 . Memory (MB): peak = 1708.098 ; gain = 0.000
+Phase 4.3 Placer Reporting | Checksum: 10c24193f
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:26 . Memory (MB): peak = 1708.098 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1708.098 ; gain = 0.000
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:26 . Memory (MB): peak = 1708.098 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 12586aa8e
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:26 . Memory (MB): peak = 1708.098 ; gain = 0.000
+Ending Placer Task | Checksum: a1f5ead9
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:26 . Memory (MB): peak = 1708.098 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+66 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:00:02 ; elapsed = 00:00:27 . Memory (MB): peak = 1708.098 ; gain = 1.016
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.167 . Memory (MB): peak = 1708.098 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/FPGA_RISC/20240604_RISCV/20240604_RISCV.runs/impl_1/RV32I_MCU_placed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_io -file RV32I_MCU_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1708.098 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file RV32I_MCU_utilization_placed.rpt -pb RV32I_MCU_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file RV32I_MCU_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1708.098 ; gain = 0.000
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1708.098 ; gain = 0.000
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.731 | TNS=-4631.906 |
+Phase 1 Physical Synthesis Initialization | Checksum: 11747455a
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.270 . Memory (MB): peak = 1708.098 ; gain = 0.000
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.731 | TNS=-4631.906 |
+
+Phase 2 DSP Register Optimization
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Phase 2 DSP Register Optimization | Checksum: 11747455a
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.278 . Memory (MB): peak = 1708.098 ; gain = 0.000
+
+Phase 3 Critical Path Optimization
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.731 | TNS=-4631.906 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[19]_18[22].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[19][22]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[19]_18[22]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.581 | TNS=-4630.763 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[19]_18[4].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[19][4]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[19]_18[4]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.515 | TNS=-4630.432 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[5].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][5]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[5]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-81] Processed net U_CPUCore/U_DP/U_PC/Q[2]. Replicated 4 times.
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/Q[2]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.484 | TNS=-4552.388 |
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/Q[2]_repN was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/Q[2]_repN.  Did not re-place instance U_CPUCore/U_DP/U_PC/o_data_reg[2]_replica
+INFO: [Physopt 32-81] Processed net U_CPUCore/U_DP/U_PC/Q[2]_repN. Replicated 1 times.
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/Q[2]_repN. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.437 | TNS=-4517.540 |
+INFO: [Physopt 32-81] Processed net U_CPUCore/U_DP/U_PC/Q[4]. Replicated 2 times.
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/Q[4]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.376 | TNS=-4448.497 |
+INFO: [Physopt 32-81] Processed net U_CPUCore/U_DP/U_PC/Q[3]. Replicated 2 times.
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/Q[3]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.350 | TNS=-4418.282 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[4].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][4]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[4]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/Q[2]_repN_4.  Did not re-place instance U_CPUCore/U_DP/U_PC/o_data_reg[2]_replica_4
+INFO: [Physopt 32-81] Processed net U_CPUCore/U_DP/U_PC/Q[2]_repN_4. Replicated 1 times.
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/Q[2]_repN_4. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.347 | TNS=-4393.916 |
+INFO: [Physopt 32-81] Processed net U_CPUCore/U_DP/U_PC/Q[3]_repN. Replicated 2 times.
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/Q[3]_repN. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.338 | TNS=-4382.432 |
+INFO: [Physopt 32-81] Processed net U_CPUCore/U_DP/U_PC/Q[3]_repN. Replicated 1 times.
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/Q[3]_repN. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.335 | TNS=-4378.604 |
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/Q[3]_repN was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/Q[3]_repN.  Did not re-place instance U_CPUCore/U_DP/U_PC/o_data_reg[3]_replica
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/Q[3]_repN was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/Q[3]_repN. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-81] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[5]. Replicated 1 times.
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[5]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.303 | TNS=-4372.420 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[21].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][21]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[21]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.286 | TNS=-4372.373 |
+INFO: [Physopt 32-81] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[4]. Replicated 1 times.
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[4]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.257 | TNS=-4367.027 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[23].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][23]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[23]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.256 | TNS=-4366.622 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[21].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][21]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[21]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-81] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[21]. Replicated 1 times.
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[21]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.247 | TNS=-4363.450 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[5]_repN.  Re-placed instance U_CPUCore/U_DP/U_PC/regFiles[4][5]_i_1_replica
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[5]_repN. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.247 | TNS=-4363.261 |
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[4]_repN was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[4]_repN.  Re-placed instance U_CPUCore/U_DP/U_PC/regFiles[4][4]_i_1_replica
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[4]_repN. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.245 | TNS=-4362.675 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[31].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][31]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[31]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.238 | TNS=-4362.526 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[11].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][11]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[11]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.231 | TNS=-4362.385 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[22]_21[16].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[22][16]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[22]_21[16]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.230 | TNS=-4362.197 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[24]_23[30].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[24][30]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[24]_23[30]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.230 | TNS=-4362.068 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[16].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][16]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[16]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.229 | TNS=-4361.938 |
+INFO: [Physopt 32-663] Processed net U_GPIOD/IOPortD_TRI[1].  Re-placed instance U_GPIOD/MDR_reg[1]
+INFO: [Physopt 32-735] Processed net U_GPIOD/IOPortD_TRI[1]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.228 | TNS=-4361.410 |
+INFO: [Physopt 32-663] Processed net U_GPIOD/MDR_reg[31]_0[3].  Re-placed instance U_GPIOD/MDR_reg[11]
+INFO: [Physopt 32-735] Processed net U_GPIOD/MDR_reg[31]_0[3]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.221 | TNS=-4361.122 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[17]_16[25].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[17][25]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[17]_16[25]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-81] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[25]. Replicated 1 times.
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[25]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.219 | TNS=-4353.567 |
+INFO: [Physopt 32-663] Processed net U_GPIOD/MDR_reg[31]_0[13].  Re-placed instance U_GPIOD/MDR_reg[21]
+INFO: [Physopt 32-735] Processed net U_GPIOD/MDR_reg[31]_0[13]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.219 | TNS=-4352.930 |
+INFO: [Physopt 32-663] Processed net U_GPIOD/IOPortD_TRI[2].  Re-placed instance U_GPIOD/MDR_reg[2]
+INFO: [Physopt 32-735] Processed net U_GPIOD/IOPortD_TRI[2]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.215 | TNS=-4352.412 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[9]_8[11].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[9][11]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[9]_8[11]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.210 | TNS=-4352.135 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[30].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][30]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[30]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[30] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[30].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][30]_i_1
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[30] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[30]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][30]_i_4_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][30]_i_4
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][30]_i_4_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.210 | TNS=-4349.406 |
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[7]_6[28]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[28] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[28].  Re-placed instance U_CPUCore/U_DP/U_PC/regFiles[4][28]_i_1
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[28]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.195 | TNS=-4345.722 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[24]_23[0].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[24][0]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[24]_23[0]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.194 | TNS=-4345.462 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[17].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][17]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[17]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.178 | TNS=-4345.266 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[10].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][10]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[10]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.177 | TNS=-4345.143 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[25]_24[22].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[25][22]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[25]_24[22]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.173 | TNS=-4344.673 |
+INFO: [Physopt 32-662] Processed net U_GPIOD/MDR_reg[31]_0[8].  Did not re-place instance U_GPIOD/MDR_reg[16]
+INFO: [Physopt 32-702] Processed net U_GPIOD/MDR_reg[31]_0[8]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/gpoRegMap[1][31]_i_5_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/gpoRegMap[1][31]_i_5
+INFO: [Physopt 32-134] Processed net U_CPUCore/U_DP/U_PC/gpoRegMap[1][31]_i_5_n_0. Rewiring did not optimize the net.
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/gpoRegMap[1][31]_i_5_n_0 was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/gpoRegMap[1][31]_i_5_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_7_n_0 was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_7_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_7
+INFO: [Physopt 32-710] Processed net U_CPUCore/U_DP/U_PC/gpoRegMap[1][31]_i_5_n_0. Critical path length was reduced through logic transformation on cell U_CPUCore/U_DP/U_PC/gpoRegMap[1][31]_i_5_comp.
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_7_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.163 | TNS=-4280.070 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[2].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][2]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[2]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[2] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[2].  Re-placed instance U_CPUCore/U_DP/U_PC/regFiles[4][2]_i_1
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[2]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.163 | TNS=-4284.753 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[24]_23[22].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[24][22]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[24]_23[22]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.159 | TNS=-4284.700 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[25]_24[31].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[25][31]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[25]_24[31]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.154 | TNS=-4284.330 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[24].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][24]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[24]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-81] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[24]. Replicated 1 times.
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[24]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.154 | TNS=-4273.867 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[8].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][8]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[8]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.153 | TNS=-4273.505 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[5]_repN.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][5]_i_1_replica
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[5]_repN was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[5]_repN. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][5]_i_2_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][5]_i_2
+INFO: [Physopt 32-710] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[5]_repN. Critical path length was reduced through logic transformation on cell U_CPUCore/U_DP/U_PC/regFiles[4][5]_i_1_replica_comp.
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][5]_i_2_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.151 | TNS=-4273.259 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[11]_10[23].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[11][23]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[11]_10[23]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.150 | TNS=-4272.555 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[17]_16[22].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[17][22]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[17]_16[22]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.148 | TNS=-4272.507 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[14].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][14]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[14]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.147 | TNS=-4272.391 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[13]_12[31].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[13][31]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[13]_12[31]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-81] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[31]. Replicated 1 times.
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[31]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.140 | TNS=-4267.396 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[20].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][20]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[20]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.140 | TNS=-4267.189 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[26].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][26]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[26]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[26] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[26].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][26]_i_1
+INFO: [Physopt 32-81] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[26]. Replicated 1 times.
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[26]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.138 | TNS=-4264.508 |
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[7]_6[11]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-81] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[11]. Replicated 1 times.
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[11]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.135 | TNS=-4254.456 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[9]_8[22].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[9][22]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[9]_8[22]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.131 | TNS=-4253.753 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[30].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][30]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[30]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/Q[3]_repN.  Did not re-place instance U_CPUCore/U_DP/U_PC/o_data_reg[3]_replica
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/Q[3]_repN. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[30].  Re-placed instance U_CPUCore/U_DP/U_PC/regFiles[4][30]_i_1
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[30]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.123 | TNS=-4254.111 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[25]_24[14].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[25][14]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[25]_24[14]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.120 | TNS=-4253.709 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[22]_21[20].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[22][20]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[22]_21[20]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.111 | TNS=-4253.195 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[9]_8[23].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[9][23]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[9]_8[23]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.110 | TNS=-4252.733 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[24]_23[22].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[24][22]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[24]_23[22]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[22].  Re-placed instance U_CPUCore/U_DP/U_PC/regFiles[4][22]_i_1
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[22]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.109 | TNS=-4246.192 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[9]_8[14].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[9][14]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[9]_8[14]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.101 | TNS=-4245.825 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[16].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][16]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[16]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[16].  Re-placed instance U_CPUCore/U_DP/U_PC/regFiles[4][16]_i_1
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[16]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.098 | TNS=-4241.091 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[30].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][30]_i_1
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[30]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_7_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_7
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_7_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.093 | TNS=-4229.347 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[19]_18[12].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[19][12]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[19]_18[12]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.092 | TNS=-4228.987 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[19]_18[3].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[19][3]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[19]_18[3]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.087 | TNS=-4228.785 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[17]_16[14].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[17][14]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[17]_16[14]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.081 | TNS=-4228.403 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[19].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][19]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[19]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.079 | TNS=-4228.388 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[9].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][9]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[9]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.078 | TNS=-4228.234 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[19]_18[17].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[19][17]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[19]_18[17]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[17].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][17]_i_1
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[17]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][17]_i_4_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][17]_i_4
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][17]_i_4_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.077 | TNS=-4224.266 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[16].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][16]_i_1
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[16]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][16]_i_4_n_0.  Re-placed instance U_CPUCore/U_DP/U_PC/regFiles[4][16]_i_4
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][16]_i_4_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.073 | TNS=-4223.026 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][30]_i_4_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][30]_i_4
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][30]_i_4_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net U_DataMemory1/readDataRAM[30].  Re-placed instance U_DataMemory1/regFiles[4][30]_i_7
+INFO: [Physopt 32-735] Processed net U_DataMemory1/readDataRAM[30]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.072 | TNS=-4222.561 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[27]_26[14].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[27][14]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[27]_26[14]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.068 | TNS=-4222.344 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[17]_16[19].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[17][19]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[17]_16[19]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.067 | TNS=-4221.947 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[24]_23[4].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[24][4]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[24]_23[4]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.066 | TNS=-4221.917 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[19].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][19]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[19]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[19].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][19]_i_1
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[19]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.063 | TNS=-4214.849 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[17]_16[15].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[17][15]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[17]_16[15]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.058 | TNS=-4214.220 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_7_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_7
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_7_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_16_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_16
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_16_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.055 | TNS=-4183.157 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[10].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][10]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[10]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[10].  Re-placed instance U_CPUCore/U_DP/U_PC/regFiles[4][10]_i_1
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[10]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.050 | TNS=-4188.243 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[7].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][7]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[7]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[7].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][7]_i_1
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[7]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.050 | TNS=-4184.523 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[26].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][26]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[26]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[26].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][26]_i_1
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[26]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.045 | TNS=-4182.513 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[17]_16[25].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[17][25]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[17]_16[25]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[25]_repN.  Re-placed instance U_CPUCore/U_DP/U_PC/regFiles[4][25]_i_1_replica
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[25]_repN. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.039 | TNS=-4180.406 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[19]_18[14].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[19][14]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[19]_18[14]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.037 | TNS=-4180.231 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[24]_23[4].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[24][4]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[24]_23[4]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[4]_repN.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][4]_i_1_replica
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[4]_repN. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][4]_i_2_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][4]_i_2
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][4]_i_2_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.036 | TNS=-4175.649 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][16]_i_4_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][16]_i_4
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][16]_i_4_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.033 | TNS=-4173.914 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[25]_24[5].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[25][5]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[25]_24[5]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.032 | TNS=-4173.737 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[14].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][14]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[14]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[14].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][14]_i_1
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[14]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][14]_i_4_n_0.  Re-placed instance U_CPUCore/U_DP/U_PC/regFiles[4][14]_i_4
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][14]_i_4_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.031 | TNS=-4168.559 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[17]_16[3].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[17][3]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[17]_16[3]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.027 | TNS=-4168.297 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[17]_16[13].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[17][13]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[17]_16[13]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.026 | TNS=-4167.969 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[24]_23[12].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[24][12]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[24]_23[12]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.024 | TNS=-4167.458 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[0].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][0]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[0].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][0]_i_1
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[0]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.004 | TNS=-4164.668 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[25]_24[5].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[25][5]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[25]_24[5]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[5].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][5]_i_1
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[5]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][5]_i_2_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][5]_i_2
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][5]_i_2_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.001 | TNS=-4161.246 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_14_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_14
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_14_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-4.000 | TNS=-4129.771 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[17]_16[10].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[17][10]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[17]_16[10]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-3.995 | TNS=-4129.781 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[12].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][12]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[12]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-3.985 | TNS=-4129.573 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[24]_23[13].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[24][13]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[24]_23[13]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-3.983 | TNS=-4129.342 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[26].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][26]_i_1
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[26]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][26]_i_4_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][26]_i_4
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][26]_i_4_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net U_DataMemory1/readDataRAM[26].  Re-placed instance U_DataMemory1/regFiles[4][26]_i_6
+INFO: [Physopt 32-735] Processed net U_DataMemory1/readDataRAM[26]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-3.980 | TNS=-4121.286 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[31].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][31]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[31]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[31].  Re-placed instance U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_2
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[31]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-3.977 | TNS=-4120.206 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[17]_16[1].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[17][1]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[17]_16[1]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[1].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][1]_i_1
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[1]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-3.974 | TNS=-4112.177 |
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[3].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][3]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[3]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[3].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][3]_i_1
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[3]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][3]_i_5_n_0.  Re-placed instance U_CPUCore/U_DP/U_PC/regFiles[4][3]_i_5
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][3]_i_5_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-3.973 | TNS=-4109.790 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[11]_10[10].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[11][10]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[11]_10[10]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-3.971 | TNS=-4109.597 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[22]_21[10].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[22][10]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[22]_21[10]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-3.971 | TNS=-4109.505 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[27]_26[2].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[27][2]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[27]_26[2]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-3.967 | TNS=-4109.149 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[19]_18[27].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[19][27]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[19]_18[27]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-3.965 | TNS=-4108.967 |
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[24]_23[2].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[24][2]
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[24]_23[2]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-3.964 | TNS=-4108.850 |
+INFO: [Common 17-14] Message 'Physopt 32-619' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Physopt 32-662] Processed net U_DataMemory1/readDataRAM[30].  Did not re-place instance U_DataMemory1/regFiles[4][30]_i_7
+INFO: [Physopt 32-735] Processed net U_DataMemory1/readDataRAM[30]. Optimization improves timing on the net.
+Phase 3 Critical Path Optimization | Checksum: 11747455a
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 1708.098 ; gain = 0.000
+
+Phase 4 Critical Path Optimization
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[13].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][13]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[13]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/Q[3]_repN was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/Q[3]_repN.  Did not re-place instance U_CPUCore/U_DP/U_PC/o_data_reg[3]_replica
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/Q[3]_repN was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/Q[3]_repN. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[13] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[13].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][13]_i_1
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[13] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[13]. Optimization improves timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[2].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][2]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[2]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[2] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[2].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][2]_i_1
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[2] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[2]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][2]_i_4_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][2]_i_4
+INFO: [Physopt 32-735] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][2]_i_4_n_0. Optimization improves timing on the net.
+INFO: [Common 17-14] Message 'Physopt 32-735' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[13]_12[31].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[13][31]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[13]_12[31]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[31]_repN was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[31]_repN.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_2_replica
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[31]_repN was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[31]_repN. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_6_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_6
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_6_n_0 was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_6_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_DataMemory1/readDataRAM[31].  Did not re-place instance U_DataMemory1/regFiles[4][31]_i_11
+INFO: [Physopt 32-710] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_6_n_0. Critical path length was reduced through logic transformation on cell U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_6_comp.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[27].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][27]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[27]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[27] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[27].  Re-placed instance U_CPUCore/U_DP/U_PC/regFiles[4][27]_i_1
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[16].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][16]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[16]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[16] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[16].  Re-placed instance U_CPUCore/U_DP/U_PC/regFiles[4][16]_i_1
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[19]_18[29].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[19][29]
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[13] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[13].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][13]_i_1
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[13] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[13]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_7_n_0 was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_7_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_7
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_7_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_13_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_13
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_13_n_0 was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_16_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_16
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_16_n_0 was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_16_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][24]_i_5_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][24]_i_5
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/regFiles[4][24]_i_5_n_0 was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[29].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][29]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[29]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-81] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[29]. Replicated 2 times.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[0].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][0]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-81] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[0]. Replicated 1 times.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[7].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][7]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[7]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-81] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[7]. Replicated 1 times.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[9].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][9]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[9]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-81] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[9]. Replicated 1 times.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[5].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][5]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[5]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[5]_repN.  Re-placed instance U_CPUCore/U_DP/U_PC/regFiles[4][5]_i_1_replica_comp
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[10].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][10]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[10]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-81] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[10]. Replicated 1 times.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[19]_18[17].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[19][17]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[19]_18[17]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[17] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[17].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][17]_i_1
+INFO: [Physopt 32-710] Processed net U_CPUCore/U_DP/U_PC/o_data_reg[2]_26[17]. Critical path length was reduced through logic transformation on cell U_CPUCore/U_DP/U_PC/regFiles[17][17]_i_1_comp.
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[7]_6[28]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[28] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[28].  Re-placed instance U_CPUCore/U_DP/U_PC/regFiles[4][28]_i_1
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[17]_16[25].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[17][25]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[17]_16[25]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-81] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[25]_repN. Replicated 1 times.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[20].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][20]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[20]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-81] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[20]. Replicated 2 times.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[6].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][6]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[6]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[6] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[6].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][6]_i_1
+INFO: [Physopt 32-81] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[6]. Replicated 1 times.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[3].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][3]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[3]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[3] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[3].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][3]_i_1
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[3] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[3]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][3]_i_5_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][3]_i_5
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[28] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[28].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][28]_i_1
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[28] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[28]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][28]_i_4_n_0.  Re-placed instance U_CPUCore/U_DP/U_PC/regFiles[4][28]_i_4
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[5]_repN.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][5]_i_1_replica_comp
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[5]_repN was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[5]_repN. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net U_DataMemory1/readDataRAM[5].  Re-placed instance U_DataMemory1/regFiles[4][5]_i_4
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[27]_26[21].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[27][21]
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[24]_23[17].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[24][17]
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[17]_16[21].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[17][21]
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][28]_i_4_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][28]_i_4
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[14].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][14]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[14]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[14] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[14].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][14]_i_1
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[14] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[14]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][14]_i_4_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][14]_i_4
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][24]_i_5_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][24]_i_5
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/regFiles[4][24]_i_5_n_0 was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][24]_i_5_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][24]_i_9_n_0.  Re-placed instance U_CPUCore/U_DP/U_PC/regFiles[4][24]_i_9
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][24]_i_9_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][24]_i_9
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][24]_i_9_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_ALU/mem_reg_0_255_0_0_i_13_0.  Re-placed instance U_CPUCore/U_DP/U_ALU/regFiles[4][24]_i_16
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[24]_23[16].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[24][16]
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[17]_16[18].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[17][18]
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[23].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][23]
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[9]_8[17].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[9][17]
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[22]_21[17].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[22][17]
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[25]_24[17].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[25][17]
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[17].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][17]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[17]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[17] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[17].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][17]_i_1
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[17] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[17]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][17]_i_4_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][17]_i_4
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/regFiles[4][17]_i_4_n_0 was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][17]_i_4_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net U_DataMemory1/readDataRAM[17].  Re-placed instance U_DataMemory1/regFiles[4][17]_i_6
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[30].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][30]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[30]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[30] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[30].  Re-placed instance U_CPUCore/U_DP/U_PC/regFiles[4][30]_i_1
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_14_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_14
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_14_n_0 was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_14_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][23]_i_5_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][23]_i_5
+INFO: [Physopt 32-710] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_14_n_0. Critical path length was reduced through logic transformation on cell U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_14_comp.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[23].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][23]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[23]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[23] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[23].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][23]_i_1
+INFO: [Physopt 32-81] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[23]. Replicated 3 times.
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[25]_repN_1.  Re-placed instance U_CPUCore/U_DP/U_PC/regFiles[4][25]_i_1_replica_1
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[25]_24[16].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[25][16]
+INFO: [Physopt 32-662] Processed net U_DataMemory1/readDataRAM[5].  Did not re-place instance U_DataMemory1/regFiles[4][5]_i_4
+INFO: [Physopt 32-710] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[5]_repN. Critical path length was reduced through logic transformation on cell U_CPUCore/U_DP/U_PC/regFiles[4][5]_i_1_replica_comp_1.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[24]_23[22].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[24][22]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[24]_23[22]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[22] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[22].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][22]_i_1
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[22] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[22]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][22]_i_4_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][22]_i_4
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[6] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[6].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][6]_i_1
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[6] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[6]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][6]_i_2_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][6]_i_2
+INFO: [Physopt 32-572] Net U_CPUCore/U_DP/U_PC/regFiles[4][6]_i_2_n_0 was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[25]_24[21].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[25][21]
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[21].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][21]
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[9]_8[16].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[9][16]
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[27]_26[25].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[27][25]
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[17]_16[25].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[17][25]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[17]_16[25]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/Q[3]_repN.  Did not re-place instance U_CPUCore/U_DP/U_PC/o_data_reg[3]_replica
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/Q[3]_repN. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[25]_repN_1.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][25]_i_1_replica_1
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[16].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][16]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[16]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[16].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][16]_i_1
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[16]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][16]_i_4_n_0.  Re-placed instance U_CPUCore/U_DP/U_PC/regFiles[4][16]_i_4
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[5].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][5]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[5]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[5]_repN.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][5]_i_1_replica_comp_1
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[24]_23[22].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[24][22]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[24]_23[22]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[22].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][22]_i_1
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[22]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][22]_i_3_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][22]_i_3
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][22]_i_3_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_9_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_9
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[2].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][2]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[2]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[2].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][2]_i_1
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[2]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][2]_i_4_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][2]_i_4
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][2]_i_4_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_DataMemory1/readDataRAM[2].  Did not re-place instance U_DataMemory1/regFiles[4][2]_i_9
+INFO: [Physopt 32-702] Processed net U_DataMemory1/readDataRAM[2]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net U_DataMemory1/mem_reg_0_255_2_2/O. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net U_DataMemory1/mem_reg_0_255_2_2/O0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_PC/o_data_reg[2]_10[2].  Re-placed instance U_CPUCore/U_DP/U_PC/regFiles[3][2]_i_1
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[7].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][7]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[7]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[7]_repN.  Re-placed instance U_CPUCore/U_DP/U_PC/regFiles[4][7]_i_1_replica
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[30].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][30]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[30]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[30].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][30]_i_1
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[30]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][30]_i_4_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][30]_i_4
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][30]_i_4_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net U_DataMemory1/readDataRAM[30].  Re-placed instance U_DataMemory1/regFiles[4][30]_i_7
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[14].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][14]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[14]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[14].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][14]_i_1
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[14]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][14]_i_4_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][14]_i_4
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][14]_i_4_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_DataMemory1/readDataRAM[14].  Did not re-place instance U_DataMemory1/regFiles[4][14]_i_6
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[5]_repN.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][5]_i_1_replica_comp_1
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[5]_repN. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][5]_i_2_n_0_repN.  Re-placed instance U_CPUCore/U_DP/U_PC/regFiles[4][5]_i_2_comp
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[8].  Re-placed instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][8]
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[27].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][27]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[27]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[27].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][27]_i_1
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[13].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][13]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[13]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[13].  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][13]_i_1
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[13]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_7_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_7
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_7_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_14_n_0.  Did not re-place instance U_CPUCore/U_DP/U_PC/regFiles[4][31]_i_14_comp
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[11].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][11]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[11]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net U_CPUCore/U_DP/U_PC/w_RFWrDataJumpMuxValue[11].  Re-placed instance U_CPUCore/U_DP/U_PC/regFiles[4][11]_i_1
+INFO: [Common 17-14] Message 'Physopt 32-663' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Physopt 32-662] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[20].  Did not re-place instance U_CPUCore/U_DP/U_RegFile/regFiles_reg[3][20]
+INFO: [Physopt 32-702] Processed net U_CPUCore/U_DP/U_RegFile/regFiles_reg[3]_2[20]. Optimizations did not improve timing on the net.
+Phase 4 Critical Path Optimization | Checksum: 11747455a
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:25 . Memory (MB): peak = 1708.098 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 1708.098 ; gain = 0.000
+INFO: [Physopt 32-603] Post Physical Optimization Timing Summary | WNS=-3.788 | TNS=-3929.695 |
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization   |  WNS Gain (ns)  |  TNS Gain (ns)  |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  DSP Register   |          0.000  |          0.000  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Critical Path  |          0.943  |        702.211  |           34  |              0  |                   160  |           0  |           2  |  00:00:25  |
+|  Total          |          0.943  |        702.211  |           34  |              0  |                   160  |           0  |           3  |  00:00:25  |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1708.098 ; gain = 0.000
+Ending Physical Synthesis Task | Checksum: eafe0034
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:25 . Memory (MB): peak = 1708.098 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+721 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+phys_opt_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:25 . Memory (MB): peak = 1708.098 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.171 . Memory (MB): peak = 1710.586 ; gain = 2.488
+INFO: [Common 17-1381] The checkpoint 'D:/FPGA_RISC/20240604_RISCV/20240604_RISCV.runs/impl_1/RV32I_MCU_physopt.dcp' has been generated.
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 1fdbcd0d ConstDB: 0 ShapeSum: 392a0d44 RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: df886b9d
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1814.688 ; gain = 91.027
+Post Restoration Checksum: NetGraph: 788f5b83 NumContArr: 66f9101a Constraints: 0 Timing: 0
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: df886b9d
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1814.688 ; gain = 91.027
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: df886b9d
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1820.734 ; gain = 97.074
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: df886b9d
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1820.734 ; gain = 97.074
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 1fb8fe16c
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1827.188 ; gain = 103.527
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-3.521 | TNS=-3428.091| WHS=0.007  | THS=0.000  |
+
+Phase 2 Router Initialization | Checksum: 1fa053fce
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1828.863 ; gain = 105.203
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.799888 %
+  Global Horizontal Routing Utilization  = 0.966163 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 1372
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 1146
+  Number of Partially Routed Nets     = 226
+  Number of Node Overlaps             = 5887
+
+
+Phase 3 Initial Routing
+
+Phase 3.1 Global Routing
+Phase 3.1 Global Routing | Checksum: 1fa053fce
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 1832.742 ; gain = 109.082
+Phase 3 Initial Routing | Checksum: 1a9d9d961
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 1834.395 ; gain = 110.734
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 3339
+ Number of Nodes with overlaps = 1737
+ Number of Nodes with overlaps = 1253
+ Number of Nodes with overlaps = 864
+ Number of Nodes with overlaps = 509
+ Number of Nodes with overlaps = 233
+ Number of Nodes with overlaps = 136
+ Number of Nodes with overlaps = 53
+ Number of Nodes with overlaps = 46
+ Number of Nodes with overlaps = 8
+ Number of Nodes with overlaps = 5
+ Number of Nodes with overlaps = 14
+ Number of Nodes with overlaps = 6
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-6.415 | TNS=-8105.661| WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 1a0ff4dbe
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:42 . Memory (MB): peak = 1837.438 ; gain = 113.777
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 1106
+ Number of Nodes with overlaps = 663
+ Number of Nodes with overlaps = 425
+ Number of Nodes with overlaps = 280
+ Number of Nodes with overlaps = 152
+ Number of Nodes with overlaps = 64
+ Number of Nodes with overlaps = 48
+ Number of Nodes with overlaps = 32
+ Number of Nodes with overlaps = 16
+ Number of Nodes with overlaps = 7
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-6.028 | TNS=-7768.078| WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 1d35f18c1
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:57 . Memory (MB): peak = 1838.461 ; gain = 114.801
+
+Phase 4.3 Global Iteration 2
+ Number of Nodes with overlaps = 900
+ Number of Nodes with overlaps = 553
+Phase 4.3 Global Iteration 2 | Checksum: 22d1e3de5
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:01:03 . Memory (MB): peak = 1839.703 ; gain = 116.043
+Phase 4 Rip-up And Reroute | Checksum: 22d1e3de5
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:01:03 . Memory (MB): peak = 1839.703 ; gain = 116.043
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 20718c742
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:01:03 . Memory (MB): peak = 1839.703 ; gain = 116.043
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-5.949 | TNS=-7566.314| WHS=N/A    | THS=N/A    |
+
+ Number of Nodes with overlaps = 0
+Phase 5.1 Delay CleanUp | Checksum: 21a4601a1
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:01:03 . Memory (MB): peak = 1851.965 ; gain = 128.305
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 21a4601a1
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:01:03 . Memory (MB): peak = 1851.965 ; gain = 128.305
+Phase 5 Delay and Skew Optimization | Checksum: 21a4601a1
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:01:03 . Memory (MB): peak = 1851.965 ; gain = 128.305
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 13bb64e3f
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:01:04 . Memory (MB): peak = 1851.965 ; gain = 128.305
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-5.917 | TNS=-7541.520| WHS=0.707  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 13bb64e3f
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:01:04 . Memory (MB): peak = 1851.965 ; gain = 128.305
+Phase 6 Post Hold Fix | Checksum: 13bb64e3f
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:01:04 . Memory (MB): peak = 1851.965 ; gain = 128.305
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 2.6158 %
+  Global Horizontal Routing Utilization  = 3.15396 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Congestion Report
+North Dir 1x1 Area, Max Cong = 75.6757%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 77.4775%, No Congested Regions.
+East Dir 1x1 Area, Max Cong = 75%, No Congested Regions.
+West Dir 1x1 Area, Max Cong = 97.0588%, Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
+   INT_L_X34Y33 -> INT_L_X34Y33
+   INT_R_X35Y32 -> INT_R_X35Y32
+   INT_R_X33Y31 -> INT_R_X33Y31
+   INT_L_X34Y31 -> INT_L_X34Y31
+
+------------------------------
+Reporting congestion hotspots
+------------------------------
+Direction: North
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: South
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: East
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: West
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 1 Aspect Ratio: 0.5 Sparse Ratio: 0.5
+
+Phase 7 Route finalize | Checksum: 216f7472c
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:01:04 . Memory (MB): peak = 1851.965 ; gain = 128.305
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 216f7472c
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:01:04 . Memory (MB): peak = 1851.965 ; gain = 128.305
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 1ad7f2355
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:01:04 . Memory (MB): peak = 1851.965 ; gain = 128.305
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-5.917 | TNS=-7541.520| WHS=0.707  | THS=0.000  |
+
+WARNING: [Route 35-328] Router estimated timing not met.
+Resolution: For a complete and accurate timing signoff, report_timing_summary must be run after route_design. Alternatively, route_design can be run with the -timing_summary option to enable a complete timing signoff at the end of route_design.
+Phase 10 Post Router Timing | Checksum: 1ad7f2355
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:01:04 . Memory (MB): peak = 1851.965 ; gain = 128.305
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:01:04 . Memory (MB): peak = 1851.965 ; gain = 128.305
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+739 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:41 ; elapsed = 00:01:05 . Memory (MB): peak = 1851.965 ; gain = 141.379
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.229 . Memory (MB): peak = 1851.965 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/FPGA_RISC/20240604_RISCV/20240604_RISCV.runs/impl_1/RV32I_MCU_routed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file RV32I_MCU_drc_routed.rpt -pb RV32I_MCU_drc_routed.pb -rpx RV32I_MCU_drc_routed.rpx
+Command: report_drc -file RV32I_MCU_drc_routed.rpt -pb RV32I_MCU_drc_routed.pb -rpx RV32I_MCU_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file D:/FPGA_RISC/20240604_RISCV/20240604_RISCV.runs/impl_1/RV32I_MCU_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file RV32I_MCU_methodology_drc_routed.rpt -pb RV32I_MCU_methodology_drc_routed.pb -rpx RV32I_MCU_methodology_drc_routed.rpx
+Command: report_methodology -file RV32I_MCU_methodology_drc_routed.rpt -pb RV32I_MCU_methodology_drc_routed.pb -rpx RV32I_MCU_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file D:/FPGA_RISC/20240604_RISCV/20240604_RISCV.runs/impl_1/RV32I_MCU_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [runtcl-4] Executing : report_power -file RV32I_MCU_power_routed.rpt -pb RV32I_MCU_power_summary_routed.pb -rpx RV32I_MCU_power_routed.rpx
+Command: report_power -file RV32I_MCU_power_routed.rpt -pb RV32I_MCU_power_summary_routed.pb -rpx RV32I_MCU_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+751 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [runtcl-4] Executing : report_route_status -file RV32I_MCU_route_status.rpt -pb RV32I_MCU_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file RV32I_MCU_timing_summary_routed.rpt -pb RV32I_MCU_timing_summary_routed.pb -rpx RV32I_MCU_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+INFO: [runtcl-4] Executing : report_incremental_reuse -file RV32I_MCU_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file RV32I_MCU_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file RV32I_MCU_bus_skew_routed.rpt -pb RV32I_MCU_bus_skew_routed.pb -rpx RV32I_MCU_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+Command: write_bitstream -force RV32I_MCU.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC PDRC-153] Gated clock check: Net U_CPUCore/U_DP/U_PC/IDR_reg[3]_i_4_0[0] is a gated clock net sourced by a combinational pin U_CPUCore/U_DP/U_PC/IDR_reg[3]_i_1/O, cell U_CPUCore/U_DP/U_PC/IDR_reg[3]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 1 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./RV32I_MCU.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-83] Releasing license: Implementation
+12 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 2343.133 ; gain = 461.785
+INFO: [Common 17-206] Exiting Vivado at Wed Jun  5 09:28:13 2024...
