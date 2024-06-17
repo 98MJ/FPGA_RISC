@@ -1,0 +1,17 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/FPGA_RISC/20240603_RISC-V_GPIO/20240603_RISC-V_GPIO.srcs/sources_1/imports/new/defines.sv,1717319922,verilog,,,,,,,,,,,,
+D:/FPGA_RISC/20240604_RISC-V_GPIO/20240603_RISC-V_GPIO.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+D:/FPGA_RISC/20240604_RISC-V_GPIO/20240603_RISC-V_GPIO.srcs/sim_1/imports/new/tb_tbtb.sv,1717564159,systemVerilog,,,,tb_tbtb,,uvm,,,,,,
+D:/FPGA_RISC/20240604_RISC-V_GPIO/20240603_RISC-V_GPIO.srcs/sources_1/imports/new/CPU_Core.sv,1717312271,systemVerilog,,D:/FPGA_RISC/20240604_RISC-V_GPIO/20240603_RISC-V_GPIO.srcs/sources_1/imports/new/ControlUnit.sv,,CPU_Core,,uvm,,,,,,
+D:/FPGA_RISC/20240604_RISC-V_GPIO/20240603_RISC-V_GPIO.srcs/sources_1/imports/new/ControlUnit.sv,1717323889,systemVerilog,,D:/FPGA_RISC/20240604_RISC-V_GPIO/20240603_RISC-V_GPIO.srcs/sources_1/imports/new/DataMemory.sv,D:/FPGA_RISC/20240604_RISC-V_GPIO/20240603_RISC-V_GPIO.srcs/sources_1/imports/new/defines.sv,ControlUnit,,uvm,,,,,,
+D:/FPGA_RISC/20240604_RISC-V_GPIO/20240603_RISC-V_GPIO.srcs/sources_1/imports/new/DataMemory.sv,1717389166,systemVerilog,,D:/FPGA_RISC/20240604_RISC-V_GPIO/20240603_RISC-V_GPIO.srcs/sources_1/imports/new/DataPath.sv,,DataMemory,,uvm,,,,,,
+D:/FPGA_RISC/20240604_RISC-V_GPIO/20240603_RISC-V_GPIO.srcs/sources_1/imports/new/DataPath.sv,1717458626,systemVerilog,,D:/FPGA_RISC/20240604_RISC-V_GPIO/20240603_RISC-V_GPIO.srcs/sources_1/new/GPO.sv,D:/FPGA_RISC/20240604_RISC-V_GPIO/20240603_RISC-V_GPIO.srcs/sources_1/imports/new/defines.sv,ALU;DataPath;Register;RegisterFile;adder;extend;mux_2x1;mux_8x1,,uvm,,,,,,
+D:/FPGA_RISC/20240604_RISC-V_GPIO/20240603_RISC-V_GPIO.srcs/sources_1/imports/new/InstructionMemory.sv,1717459285,systemVerilog,,D:/FPGA_RISC/20240604_RISC-V_GPIO/20240603_RISC-V_GPIO.srcs/sources_1/imports/new/RV32I.sv,,instructionMemory,,uvm,,,,,,
+D:/FPGA_RISC/20240604_RISC-V_GPIO/20240603_RISC-V_GPIO.srcs/sources_1/imports/new/RV32I.sv,1717582454,systemVerilog,,D:/FPGA_RISC/20240604_RISC-V_GPIO/20240603_RISC-V_GPIO.srcs/sources_1/new/fndController.sv,,RV32I,,uvm,,,,,,
+D:/FPGA_RISC/20240604_RISC-V_GPIO/20240603_RISC-V_GPIO.srcs/sources_1/imports/new/defines.sv,1717319922,verilog,,,,,,,,,,,,
+D:/FPGA_RISC/20240604_RISC-V_GPIO/20240603_RISC-V_GPIO.srcs/sources_1/new/Bus_Interconnector.sv,1717560589,systemVerilog,,D:/FPGA_RISC/20240604_RISC-V_GPIO/20240603_RISC-V_GPIO.srcs/sources_1/imports/new/CPU_Core.sv,,Bus_Interconnector;decoder;mux,,uvm,,,,,,
+D:/FPGA_RISC/20240604_RISC-V_GPIO/20240603_RISC-V_GPIO.srcs/sources_1/new/GPO.sv,1717561406,systemVerilog,,D:/FPGA_RISC/20240604_RISC-V_GPIO/20240603_RISC-V_GPIO.srcs/sources_1/imports/new/InstructionMemory.sv,,GPO,,uvm,,,,,,
+D:/FPGA_RISC/20240604_RISC-V_GPIO/20240603_RISC-V_GPIO.srcs/sources_1/new/fndController.sv,1717582546,systemVerilog,,D:/FPGA_RISC/20240604_RISC-V_GPIO/20240603_RISC-V_GPIO.srcs/sim_1/imports/new/tb_tbtb.sv,,BCDtoSEG;Decoder_24;clkDiv;counter;digitSplitter;fndController;mux_41,,uvm,,,,,,
