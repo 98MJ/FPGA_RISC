@@ -1,0 +1,597 @@
+16:40:26 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\FPGA_RISC\vitis_gpio_led\temp_xsdb_launch_script.tcl
+16:40:26 INFO  : Registering command handlers for Vitis TCF services
+16:40:29 INFO  : XSCT server has started successfully.
+16:40:29 INFO  : plnx-install-location is set to ''
+16:40:29 INFO  : Platform repository initialization has completed.
+16:40:32 INFO  : Successfully done setting XSCT server connection channel  
+16:40:32 INFO  : Successfully done query RDI_DATADIR 
+16:40:32 INFO  : Successfully done setting workspace for the tool. 
+16:43:03 INFO  : Result from executing command 'getProjects': led_design_wrapper
+16:43:03 INFO  : Result from executing command 'getPlatforms': 
+16:43:03 WARN  : An unexpected exception occurred in the module 'platform project logging'
+16:43:03 INFO  : Platform 'led_design_wrapper' is added to custom repositories.
+16:43:04 INFO  : Platform 'led_design_wrapper' is added to custom repositories.
+16:44:38 INFO  : Result from executing command 'getProjects': led_design_wrapper
+16:44:38 INFO  : Result from executing command 'getPlatforms': led_design_wrapper|D:/FPGA_RISC/vitis_gpio_led/led_design_wrapper/export/led_design_wrapper/led_design_wrapper.xpfm
+16:44:38 INFO  : Checking for BSP changes to sync application flags for project 'led_blink'...
+16:48:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:48:25 INFO  : Jtag cable 'Digilent Basys3 210183B31917A' is selected.
+16:48:25 INFO  : 'jtag frequency' command is executed.
+16:48:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}' command is executed.
+16:48:26 INFO  : Device configured successfully with "D:/FPGA_RISC/vitis_gpio_led/led_blink/_ide/bitstream/led_design_wrapper.bit"
+16:48:26 INFO  : Context for processor 'microblaze_0' is selected.
+16:48:26 INFO  : Hardware design and registers information is loaded from 'D:/FPGA_RISC/vitis_gpio_led/led_design_wrapper/export/led_design_wrapper/hw/led_design_wrapper.xsa'.
+16:48:26 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:48:26 INFO  : Context for processor 'microblaze_0' is selected.
+16:48:26 INFO  : System reset is completed.
+16:48:29 INFO  : 'after 3000' command is executed.
+16:48:29 INFO  : Context for processor 'microblaze_0' is selected.
+16:48:29 INFO  : The application 'D:/FPGA_RISC/vitis_gpio_led/led_blink/Debug/led_blink.elf' is downloaded to processor 'microblaze_0'.
+16:48:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}
+fpga -file D:/FPGA_RISC/vitis_gpio_led/led_blink/_ide/bitstream/led_design_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/FPGA_RISC/vitis_gpio_led/led_design_wrapper/export/led_design_wrapper/hw/led_design_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/FPGA_RISC/vitis_gpio_led/led_blink/Debug/led_blink.elf
+----------------End of Script----------------
+
+16:48:30 INFO  : Context for processor 'microblaze_0' is selected.
+16:48:30 INFO  : 'con' command is executed.
+16:48:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:48:30 INFO  : Launch script is exported to file 'D:\FPGA_RISC\vitis_gpio_led\led_blink_system\_ide\scripts\debugger_led_blink-default.tcl'
+16:55:54 INFO  : Checking for BSP changes to sync application flags for project 'led_blink'...
+16:56:11 INFO  : Disconnected from the channel tcfchan#2.
+16:56:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:56:12 INFO  : Jtag cable 'Digilent Basys3 210183B31917A' is selected.
+16:56:12 INFO  : 'jtag frequency' command is executed.
+16:56:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}' command is executed.
+16:56:13 INFO  : Device configured successfully with "D:/FPGA_RISC/vitis_gpio_led/led_blink/_ide/bitstream/led_design_wrapper.bit"
+16:56:13 INFO  : Context for processor 'microblaze_0' is selected.
+16:56:13 INFO  : Hardware design and registers information is loaded from 'D:/FPGA_RISC/vitis_gpio_led/led_design_wrapper/export/led_design_wrapper/hw/led_design_wrapper.xsa'.
+16:56:13 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:56:13 INFO  : Context for processor 'microblaze_0' is selected.
+16:56:13 INFO  : System reset is completed.
+16:56:16 INFO  : 'after 3000' command is executed.
+16:56:16 INFO  : Context for processor 'microblaze_0' is selected.
+16:56:16 INFO  : The application 'D:/FPGA_RISC/vitis_gpio_led/led_blink/Debug/led_blink.elf' is downloaded to processor 'microblaze_0'.
+16:56:16 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}
+fpga -file D:/FPGA_RISC/vitis_gpio_led/led_blink/_ide/bitstream/led_design_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/FPGA_RISC/vitis_gpio_led/led_design_wrapper/export/led_design_wrapper/hw/led_design_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/FPGA_RISC/vitis_gpio_led/led_blink/Debug/led_blink.elf
+----------------End of Script----------------
+
+16:56:16 INFO  : Context for processor 'microblaze_0' is selected.
+16:56:17 INFO  : 'con' command is executed.
+16:56:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:56:17 INFO  : Launch script is exported to file 'D:\FPGA_RISC\vitis_gpio_led\led_blink_system\_ide\scripts\debugger_led_blink-default.tcl'
+16:56:19 INFO  : Checking for BSP changes to sync application flags for project 'led_blink'...
+16:56:24 INFO  : Checking for BSP changes to sync application flags for project 'led_blink'...
+16:56:28 INFO  : Checking for BSP changes to sync application flags for project 'led_blink'...
+16:57:16 INFO  : Checking for BSP changes to sync application flags for project 'led_blink'...
+16:57:25 INFO  : Disconnected from the channel tcfchan#3.
+16:57:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:57:26 INFO  : Jtag cable 'Digilent Basys3 210183B31917A' is selected.
+16:57:26 INFO  : 'jtag frequency' command is executed.
+16:57:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}' command is executed.
+16:57:27 INFO  : Device configured successfully with "D:/FPGA_RISC/vitis_gpio_led/led_blink/_ide/bitstream/led_design_wrapper.bit"
+16:57:27 INFO  : Context for processor 'microblaze_0' is selected.
+16:57:27 INFO  : Hardware design and registers information is loaded from 'D:/FPGA_RISC/vitis_gpio_led/led_design_wrapper/export/led_design_wrapper/hw/led_design_wrapper.xsa'.
+16:57:27 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:57:27 INFO  : Context for processor 'microblaze_0' is selected.
+16:57:27 INFO  : System reset is completed.
+16:57:30 INFO  : 'after 3000' command is executed.
+16:57:31 INFO  : Context for processor 'microblaze_0' is selected.
+16:57:31 INFO  : The application 'D:/FPGA_RISC/vitis_gpio_led/led_blink/Debug/led_blink.elf' is downloaded to processor 'microblaze_0'.
+16:57:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}
+fpga -file D:/FPGA_RISC/vitis_gpio_led/led_blink/_ide/bitstream/led_design_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/FPGA_RISC/vitis_gpio_led/led_design_wrapper/export/led_design_wrapper/hw/led_design_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/FPGA_RISC/vitis_gpio_led/led_blink/Debug/led_blink.elf
+----------------End of Script----------------
+
+16:57:31 INFO  : Context for processor 'microblaze_0' is selected.
+16:57:31 INFO  : 'con' command is executed.
+16:57:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:57:31 INFO  : Launch script is exported to file 'D:\FPGA_RISC\vitis_gpio_led\led_blink_system\_ide\scripts\debugger_led_blink-default.tcl'
+17:19:27 INFO  : Result from executing command 'getProjects': button_design_wrapper;led_design_wrapper
+17:19:27 INFO  : Result from executing command 'getPlatforms': led_design_wrapper|D:/FPGA_RISC/vitis_gpio_led/led_design_wrapper/export/led_design_wrapper/led_design_wrapper.xpfm
+17:19:27 INFO  : Platform 'button_design_wrapper' is added to custom repositories.
+17:19:28 INFO  : Platform 'button_design_wrapper' is added to custom repositories.
+17:45:06 INFO  : Result from executing command 'getProjects': button_design_wrapper;led_design_wrapper
+17:45:06 INFO  : Result from executing command 'getPlatforms': D:\FPGA_RISC\vitis_gpio_led\button_design_wrapper\export\button_design_wrapper\button_design_wrapper.xpfm|D:/FPGA_RISC/vitis_gpio_led/button_design_wrapper/export/button_design_wrapper/button_design_wrapper.xpfm;led_design_wrapper|D:/FPGA_RISC/vitis_gpio_led/led_design_wrapper/export/led_design_wrapper/led_design_wrapper.xpfm
+17:45:06 INFO  : Checking for BSP changes to sync application flags for project 'buttton'...
+17:45:08 INFO  : Checking for BSP changes to sync application flags for project 'buttton'...
+17:54:04 INFO  : Checking for BSP changes to sync application flags for project 'buttton'...
+17:54:28 INFO  : Disconnected from the channel tcfchan#4.
+17:54:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:54:29 INFO  : Jtag cable 'Digilent Basys3 210183B31917A' is selected.
+17:54:29 INFO  : 'jtag frequency' command is executed.
+17:54:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}' command is executed.
+17:54:31 INFO  : Device configured successfully with "D:/FPGA_RISC/vitis_gpio_led/buttton/_ide/bitstream/button_design_wrapper.bit"
+17:54:31 INFO  : Context for processor 'microblaze_0' is selected.
+17:54:31 INFO  : Hardware design and registers information is loaded from 'D:/FPGA_RISC/vitis_gpio_led/button_design_wrapper/export/button_design_wrapper/hw/button_design_wrapper.xsa'.
+17:54:31 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:54:31 INFO  : Context for processor 'microblaze_0' is selected.
+17:54:31 INFO  : System reset is completed.
+17:54:34 INFO  : 'after 3000' command is executed.
+17:54:34 INFO  : Context for processor 'microblaze_0' is selected.
+17:54:34 INFO  : The application 'D:/FPGA_RISC/vitis_gpio_led/buttton/Debug/buttton.elf' is downloaded to processor 'microblaze_0'.
+17:54:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}
+fpga -file D:/FPGA_RISC/vitis_gpio_led/buttton/_ide/bitstream/button_design_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/FPGA_RISC/vitis_gpio_led/button_design_wrapper/export/button_design_wrapper/hw/button_design_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/FPGA_RISC/vitis_gpio_led/buttton/Debug/buttton.elf
+----------------End of Script----------------
+
+17:54:34 INFO  : Context for processor 'microblaze_0' is selected.
+17:54:34 INFO  : 'con' command is executed.
+17:54:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:54:34 INFO  : Launch script is exported to file 'D:\FPGA_RISC\vitis_gpio_led\buttton_system\_ide\scripts\debugger_buttton-default.tcl'
+17:55:55 INFO  : Checking for BSP changes to sync application flags for project 'buttton'...
+17:56:07 INFO  : Disconnected from the channel tcfchan#6.
+17:56:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:56:08 INFO  : Jtag cable 'Digilent Basys3 210183B31917A' is selected.
+17:56:08 INFO  : 'jtag frequency' command is executed.
+17:56:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}' command is executed.
+17:56:10 INFO  : Device configured successfully with "D:/FPGA_RISC/vitis_gpio_led/buttton/_ide/bitstream/button_design_wrapper.bit"
+17:56:10 INFO  : Context for processor 'microblaze_0' is selected.
+17:56:10 INFO  : Hardware design and registers information is loaded from 'D:/FPGA_RISC/vitis_gpio_led/button_design_wrapper/export/button_design_wrapper/hw/button_design_wrapper.xsa'.
+17:56:10 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:56:10 INFO  : Context for processor 'microblaze_0' is selected.
+17:56:10 INFO  : System reset is completed.
+17:56:13 INFO  : 'after 3000' command is executed.
+17:56:13 INFO  : Context for processor 'microblaze_0' is selected.
+17:56:13 INFO  : The application 'D:/FPGA_RISC/vitis_gpio_led/buttton/Debug/buttton.elf' is downloaded to processor 'microblaze_0'.
+17:56:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}
+fpga -file D:/FPGA_RISC/vitis_gpio_led/buttton/_ide/bitstream/button_design_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/FPGA_RISC/vitis_gpio_led/button_design_wrapper/export/button_design_wrapper/hw/button_design_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/FPGA_RISC/vitis_gpio_led/buttton/Debug/buttton.elf
+----------------End of Script----------------
+
+17:56:13 INFO  : Context for processor 'microblaze_0' is selected.
+17:56:13 INFO  : 'con' command is executed.
+17:56:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:56:13 INFO  : Launch script is exported to file 'D:\FPGA_RISC\vitis_gpio_led\buttton_system\_ide\scripts\debugger_buttton-default.tcl'
+17:56:29 INFO  : Checking for BSP changes to sync application flags for project 'buttton'...
+17:56:41 INFO  : Disconnected from the channel tcfchan#7.
+17:56:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:56:42 INFO  : Jtag cable 'Digilent Basys3 210183B31917A' is selected.
+17:56:42 INFO  : 'jtag frequency' command is executed.
+17:56:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}' command is executed.
+17:56:44 INFO  : Device configured successfully with "D:/FPGA_RISC/vitis_gpio_led/buttton/_ide/bitstream/button_design_wrapper.bit"
+17:56:44 INFO  : Context for processor 'microblaze_0' is selected.
+17:56:44 INFO  : Hardware design and registers information is loaded from 'D:/FPGA_RISC/vitis_gpio_led/button_design_wrapper/export/button_design_wrapper/hw/button_design_wrapper.xsa'.
+17:56:44 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:56:44 INFO  : Context for processor 'microblaze_0' is selected.
+17:56:44 INFO  : System reset is completed.
+17:56:47 INFO  : 'after 3000' command is executed.
+17:56:47 INFO  : Context for processor 'microblaze_0' is selected.
+17:56:47 INFO  : The application 'D:/FPGA_RISC/vitis_gpio_led/buttton/Debug/buttton.elf' is downloaded to processor 'microblaze_0'.
+17:56:47 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}
+fpga -file D:/FPGA_RISC/vitis_gpio_led/buttton/_ide/bitstream/button_design_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/FPGA_RISC/vitis_gpio_led/button_design_wrapper/export/button_design_wrapper/hw/button_design_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/FPGA_RISC/vitis_gpio_led/buttton/Debug/buttton.elf
+----------------End of Script----------------
+
+17:56:47 INFO  : Context for processor 'microblaze_0' is selected.
+17:56:47 INFO  : 'con' command is executed.
+17:56:47 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:56:47 INFO  : Launch script is exported to file 'D:\FPGA_RISC\vitis_gpio_led\buttton_system\_ide\scripts\debugger_buttton-default.tcl'
+17:57:27 INFO  : Checking for BSP changes to sync application flags for project 'buttton'...
+17:57:33 INFO  : Disconnected from the channel tcfchan#8.
+17:57:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:57:35 INFO  : Jtag cable 'Digilent Basys3 210183B31917A' is selected.
+17:57:35 INFO  : 'jtag frequency' command is executed.
+17:57:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}' command is executed.
+17:57:36 INFO  : Device configured successfully with "D:/FPGA_RISC/vitis_gpio_led/buttton/_ide/bitstream/button_design_wrapper.bit"
+17:57:36 INFO  : Context for processor 'microblaze_0' is selected.
+17:57:36 INFO  : Hardware design and registers information is loaded from 'D:/FPGA_RISC/vitis_gpio_led/button_design_wrapper/export/button_design_wrapper/hw/button_design_wrapper.xsa'.
+17:57:36 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:57:36 INFO  : Context for processor 'microblaze_0' is selected.
+17:57:36 INFO  : System reset is completed.
+17:57:39 INFO  : 'after 3000' command is executed.
+17:57:39 INFO  : Context for processor 'microblaze_0' is selected.
+17:57:39 INFO  : The application 'D:/FPGA_RISC/vitis_gpio_led/buttton/Debug/buttton.elf' is downloaded to processor 'microblaze_0'.
+17:57:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}
+fpga -file D:/FPGA_RISC/vitis_gpio_led/buttton/_ide/bitstream/button_design_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/FPGA_RISC/vitis_gpio_led/button_design_wrapper/export/button_design_wrapper/hw/button_design_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/FPGA_RISC/vitis_gpio_led/buttton/Debug/buttton.elf
+----------------End of Script----------------
+
+17:57:39 INFO  : Context for processor 'microblaze_0' is selected.
+17:57:39 INFO  : 'con' command is executed.
+17:57:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:57:39 INFO  : Launch script is exported to file 'D:\FPGA_RISC\vitis_gpio_led\buttton_system\_ide\scripts\debugger_buttton-default.tcl'
+17:58:07 INFO  : Checking for BSP changes to sync application flags for project 'buttton'...
+17:58:14 INFO  : Disconnected from the channel tcfchan#9.
+17:58:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:58:15 INFO  : Jtag cable 'Digilent Basys3 210183B31917A' is selected.
+17:58:15 INFO  : 'jtag frequency' command is executed.
+17:58:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}' command is executed.
+17:58:16 INFO  : Device configured successfully with "D:/FPGA_RISC/vitis_gpio_led/buttton/_ide/bitstream/button_design_wrapper.bit"
+17:58:16 INFO  : Context for processor 'microblaze_0' is selected.
+17:58:16 INFO  : Hardware design and registers information is loaded from 'D:/FPGA_RISC/vitis_gpio_led/button_design_wrapper/export/button_design_wrapper/hw/button_design_wrapper.xsa'.
+17:58:16 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:58:16 INFO  : Context for processor 'microblaze_0' is selected.
+17:58:16 INFO  : System reset is completed.
+17:58:19 INFO  : 'after 3000' command is executed.
+17:58:19 INFO  : Context for processor 'microblaze_0' is selected.
+17:58:19 INFO  : The application 'D:/FPGA_RISC/vitis_gpio_led/buttton/Debug/buttton.elf' is downloaded to processor 'microblaze_0'.
+17:58:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}
+fpga -file D:/FPGA_RISC/vitis_gpio_led/buttton/_ide/bitstream/button_design_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/FPGA_RISC/vitis_gpio_led/button_design_wrapper/export/button_design_wrapper/hw/button_design_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/FPGA_RISC/vitis_gpio_led/buttton/Debug/buttton.elf
+----------------End of Script----------------
+
+17:58:19 INFO  : Context for processor 'microblaze_0' is selected.
+17:58:19 INFO  : 'con' command is executed.
+17:58:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:58:19 INFO  : Launch script is exported to file 'D:\FPGA_RISC\vitis_gpio_led\buttton_system\_ide\scripts\debugger_buttton-default.tcl'
+17:59:28 INFO  : Checking for BSP changes to sync application flags for project 'buttton'...
+17:59:37 INFO  : Disconnected from the channel tcfchan#10.
+17:59:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:59:38 INFO  : Jtag cable 'Digilent Basys3 210183B31917A' is selected.
+17:59:38 INFO  : 'jtag frequency' command is executed.
+17:59:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}' command is executed.
+17:59:39 INFO  : Device configured successfully with "D:/FPGA_RISC/vitis_gpio_led/buttton/_ide/bitstream/button_design_wrapper.bit"
+17:59:39 INFO  : Context for processor 'microblaze_0' is selected.
+17:59:39 INFO  : Hardware design and registers information is loaded from 'D:/FPGA_RISC/vitis_gpio_led/button_design_wrapper/export/button_design_wrapper/hw/button_design_wrapper.xsa'.
+17:59:39 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:59:39 INFO  : Context for processor 'microblaze_0' is selected.
+17:59:39 INFO  : System reset is completed.
+17:59:42 INFO  : 'after 3000' command is executed.
+17:59:42 INFO  : Context for processor 'microblaze_0' is selected.
+17:59:42 INFO  : The application 'D:/FPGA_RISC/vitis_gpio_led/buttton/Debug/buttton.elf' is downloaded to processor 'microblaze_0'.
+17:59:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}
+fpga -file D:/FPGA_RISC/vitis_gpio_led/buttton/_ide/bitstream/button_design_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/FPGA_RISC/vitis_gpio_led/button_design_wrapper/export/button_design_wrapper/hw/button_design_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/FPGA_RISC/vitis_gpio_led/buttton/Debug/buttton.elf
+----------------End of Script----------------
+
+17:59:42 INFO  : Context for processor 'microblaze_0' is selected.
+17:59:42 INFO  : 'con' command is executed.
+17:59:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:59:42 INFO  : Launch script is exported to file 'D:\FPGA_RISC\vitis_gpio_led\buttton_system\_ide\scripts\debugger_buttton-default.tcl'
+17:59:58 INFO  : Checking for BSP changes to sync application flags for project 'buttton'...
+18:00:07 INFO  : Disconnected from the channel tcfchan#11.
+18:00:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:00:08 INFO  : Jtag cable 'Digilent Basys3 210183B31917A' is selected.
+18:00:08 INFO  : 'jtag frequency' command is executed.
+18:00:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}' command is executed.
+18:00:09 INFO  : Device configured successfully with "D:/FPGA_RISC/vitis_gpio_led/buttton/_ide/bitstream/button_design_wrapper.bit"
+18:00:09 INFO  : Context for processor 'microblaze_0' is selected.
+18:00:09 INFO  : Hardware design and registers information is loaded from 'D:/FPGA_RISC/vitis_gpio_led/button_design_wrapper/export/button_design_wrapper/hw/button_design_wrapper.xsa'.
+18:00:09 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:00:09 INFO  : Context for processor 'microblaze_0' is selected.
+18:00:09 INFO  : System reset is completed.
+18:00:12 INFO  : 'after 3000' command is executed.
+18:00:12 INFO  : Context for processor 'microblaze_0' is selected.
+18:00:12 INFO  : The application 'D:/FPGA_RISC/vitis_gpio_led/buttton/Debug/buttton.elf' is downloaded to processor 'microblaze_0'.
+18:00:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}
+fpga -file D:/FPGA_RISC/vitis_gpio_led/buttton/_ide/bitstream/button_design_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/FPGA_RISC/vitis_gpio_led/button_design_wrapper/export/button_design_wrapper/hw/button_design_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/FPGA_RISC/vitis_gpio_led/buttton/Debug/buttton.elf
+----------------End of Script----------------
+
+18:00:13 INFO  : Context for processor 'microblaze_0' is selected.
+18:00:13 INFO  : 'con' command is executed.
+18:00:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+18:00:13 INFO  : Launch script is exported to file 'D:\FPGA_RISC\vitis_gpio_led\buttton_system\_ide\scripts\debugger_buttton-default.tcl'
+18:28:16 INFO  : Disconnected from the channel tcfchan#12.
+11:00:29 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\FPGA_RISC\vitis_gpio_led\temp_xsdb_launch_script.tcl
+11:00:31 INFO  : XSCT server has started successfully.
+11:00:31 INFO  : Successfully done setting XSCT server connection channel  
+11:00:31 INFO  : plnx-install-location is set to ''
+11:00:31 INFO  : Successfully done setting workspace for the tool. 
+11:00:36 INFO  : Platform repository initialization has completed.
+11:00:36 INFO  : Registering command handlers for Vitis TCF services
+11:00:39 INFO  : Successfully done query RDI_DATADIR 
+11:13:43 INFO  : Result from executing command 'getProjects': btn_led_design_wrapper;button_design_wrapper;led_design_wrapper
+11:13:43 INFO  : Result from executing command 'getPlatforms': button_design_wrapper|D:/FPGA_RISC/vitis_gpio_led/button_design_wrapper/export/button_design_wrapper/button_design_wrapper.xpfm;led_design_wrapper|D:/FPGA_RISC/vitis_gpio_led/led_design_wrapper/export/led_design_wrapper/led_design_wrapper.xpfm
+11:13:43 WARN  : An unexpected exception occurred in the module 'platform project logging'
+11:13:43 INFO  : Platform 'btn_led_design_wrapper' is added to custom repositories.
+11:13:44 INFO  : Platform 'btn_led_design_wrapper' is added to custom repositories.
+11:36:47 INFO  : Result from executing command 'getProjects': btn_led_design_wrapper;button_design_wrapper;led_design_wrapper
+11:36:47 INFO  : Result from executing command 'getPlatforms': btn_led_design_wrapper|D:/FPGA_RISC/vitis_gpio_led/btn_led_design_wrapper/export/btn_led_design_wrapper/btn_led_design_wrapper.xpfm;button_design_wrapper|D:/FPGA_RISC/vitis_gpio_led/button_design_wrapper/export/button_design_wrapper/button_design_wrapper.xpfm;led_design_wrapper|D:/FPGA_RISC/vitis_gpio_led/led_design_wrapper/export/led_design_wrapper/led_design_wrapper.xpfm
+11:36:47 INFO  : Checking for BSP changes to sync application flags for project '20240620_btn_led'...
+11:37:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:37:06 INFO  : Jtag cable 'Digilent Basys3 210183B31917A' is selected.
+11:37:06 INFO  : 'jtag frequency' command is executed.
+11:37:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}' command is executed.
+11:37:07 INFO  : Device configured successfully with "D:/FPGA_RISC/vitis_gpio_led/20240620_btn_led/_ide/bitstream/btn_led_design_wrapper.bit"
+11:37:07 INFO  : Context for processor 'microblaze_0' is selected.
+11:37:07 INFO  : Hardware design and registers information is loaded from 'D:/FPGA_RISC/vitis_gpio_led/btn_led_design_wrapper/export/btn_led_design_wrapper/hw/btn_led_design_wrapper.xsa'.
+11:37:07 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:37:07 INFO  : Context for processor 'microblaze_0' is selected.
+11:37:07 INFO  : System reset is completed.
+11:37:10 INFO  : 'after 3000' command is executed.
+11:37:10 INFO  : Context for processor 'microblaze_0' is selected.
+11:37:10 INFO  : The application 'D:/FPGA_RISC/vitis_gpio_led/20240620_btn_led/Debug/20240620_btn_led.elf' is downloaded to processor 'microblaze_0'.
+11:37:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}
+fpga -file D:/FPGA_RISC/vitis_gpio_led/20240620_btn_led/_ide/bitstream/btn_led_design_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/FPGA_RISC/vitis_gpio_led/btn_led_design_wrapper/export/btn_led_design_wrapper/hw/btn_led_design_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/FPGA_RISC/vitis_gpio_led/20240620_btn_led/Debug/20240620_btn_led.elf
+----------------End of Script----------------
+
+11:37:11 INFO  : Context for processor 'microblaze_0' is selected.
+11:37:11 INFO  : 'con' command is executed.
+11:37:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:37:11 INFO  : Launch script is exported to file 'D:\FPGA_RISC\vitis_gpio_led\20240620_btn_led_system\_ide\scripts\debugger_20240620_btn_led-default.tcl'
+11:46:49 INFO  : Checking for BSP changes to sync application flags for project '20240620_btn_led'...
+11:47:03 INFO  : Disconnected from the channel tcfchan#2.
+11:47:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:47:05 INFO  : Jtag cable 'Digilent Basys3 210183B31917A' is selected.
+11:47:05 INFO  : 'jtag frequency' command is executed.
+11:47:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}' command is executed.
+11:47:06 INFO  : Device configured successfully with "D:/FPGA_RISC/vitis_gpio_led/20240620_btn_led/_ide/bitstream/btn_led_design_wrapper.bit"
+11:47:06 INFO  : Context for processor 'microblaze_0' is selected.
+11:47:06 INFO  : Hardware design and registers information is loaded from 'D:/FPGA_RISC/vitis_gpio_led/btn_led_design_wrapper/export/btn_led_design_wrapper/hw/btn_led_design_wrapper.xsa'.
+11:47:06 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:47:06 INFO  : Context for processor 'microblaze_0' is selected.
+11:47:06 INFO  : System reset is completed.
+11:47:09 INFO  : 'after 3000' command is executed.
+11:47:09 INFO  : Context for processor 'microblaze_0' is selected.
+11:47:09 INFO  : The application 'D:/FPGA_RISC/vitis_gpio_led/20240620_btn_led/Debug/20240620_btn_led.elf' is downloaded to processor 'microblaze_0'.
+11:47:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}
+fpga -file D:/FPGA_RISC/vitis_gpio_led/20240620_btn_led/_ide/bitstream/btn_led_design_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/FPGA_RISC/vitis_gpio_led/btn_led_design_wrapper/export/btn_led_design_wrapper/hw/btn_led_design_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/FPGA_RISC/vitis_gpio_led/20240620_btn_led/Debug/20240620_btn_led.elf
+----------------End of Script----------------
+
+11:47:09 INFO  : Context for processor 'microblaze_0' is selected.
+11:47:09 INFO  : 'con' command is executed.
+11:47:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:47:09 INFO  : Launch script is exported to file 'D:\FPGA_RISC\vitis_gpio_led\20240620_btn_led_system\_ide\scripts\debugger_20240620_btn_led-default.tcl'
+11:52:11 INFO  : Checking for BSP changes to sync application flags for project '20240620_btn_led'...
+11:52:20 INFO  : Disconnected from the channel tcfchan#3.
+11:52:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:52:22 INFO  : Jtag cable 'Digilent Basys3 210183B31917A' is selected.
+11:52:22 INFO  : 'jtag frequency' command is executed.
+11:52:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}' command is executed.
+11:52:23 INFO  : Device configured successfully with "D:/FPGA_RISC/vitis_gpio_led/20240620_btn_led/_ide/bitstream/btn_led_design_wrapper.bit"
+11:52:23 INFO  : Context for processor 'microblaze_0' is selected.
+11:52:23 INFO  : Hardware design and registers information is loaded from 'D:/FPGA_RISC/vitis_gpio_led/btn_led_design_wrapper/export/btn_led_design_wrapper/hw/btn_led_design_wrapper.xsa'.
+11:52:23 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:52:23 INFO  : Context for processor 'microblaze_0' is selected.
+11:52:23 INFO  : System reset is completed.
+11:52:26 INFO  : 'after 3000' command is executed.
+11:52:26 INFO  : Context for processor 'microblaze_0' is selected.
+11:52:26 INFO  : The application 'D:/FPGA_RISC/vitis_gpio_led/20240620_btn_led/Debug/20240620_btn_led.elf' is downloaded to processor 'microblaze_0'.
+11:52:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}
+fpga -file D:/FPGA_RISC/vitis_gpio_led/20240620_btn_led/_ide/bitstream/btn_led_design_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/FPGA_RISC/vitis_gpio_led/btn_led_design_wrapper/export/btn_led_design_wrapper/hw/btn_led_design_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/FPGA_RISC/vitis_gpio_led/20240620_btn_led/Debug/20240620_btn_led.elf
+----------------End of Script----------------
+
+11:52:26 INFO  : Context for processor 'microblaze_0' is selected.
+11:52:26 INFO  : 'con' command is executed.
+11:52:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:52:26 INFO  : Launch script is exported to file 'D:\FPGA_RISC\vitis_gpio_led\20240620_btn_led_system\_ide\scripts\debugger_20240620_btn_led-default.tcl'
+13:16:22 INFO  : Checking for BSP changes to sync application flags for project '20240620_btn_led'...
+13:16:44 INFO  : Disconnected from the channel tcfchan#4.
+13:16:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:16:45 INFO  : Jtag cable 'Digilent Basys3 210183B31917A' is selected.
+13:16:45 INFO  : 'jtag frequency' command is executed.
+13:16:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}' command is executed.
+13:16:46 INFO  : Device configured successfully with "D:/FPGA_RISC/vitis_gpio_led/20240620_btn_led/_ide/bitstream/btn_led_design_wrapper.bit"
+13:16:46 INFO  : Context for processor 'microblaze_0' is selected.
+13:16:46 INFO  : Hardware design and registers information is loaded from 'D:/FPGA_RISC/vitis_gpio_led/btn_led_design_wrapper/export/btn_led_design_wrapper/hw/btn_led_design_wrapper.xsa'.
+13:16:46 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:16:46 INFO  : Context for processor 'microblaze_0' is selected.
+13:16:46 INFO  : System reset is completed.
+13:16:49 INFO  : 'after 3000' command is executed.
+13:16:49 INFO  : Context for processor 'microblaze_0' is selected.
+13:16:49 INFO  : The application 'D:/FPGA_RISC/vitis_gpio_led/20240620_btn_led/Debug/20240620_btn_led.elf' is downloaded to processor 'microblaze_0'.
+13:16:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}
+fpga -file D:/FPGA_RISC/vitis_gpio_led/20240620_btn_led/_ide/bitstream/btn_led_design_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/FPGA_RISC/vitis_gpio_led/btn_led_design_wrapper/export/btn_led_design_wrapper/hw/btn_led_design_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/FPGA_RISC/vitis_gpio_led/20240620_btn_led/Debug/20240620_btn_led.elf
+----------------End of Script----------------
+
+13:16:49 INFO  : Context for processor 'microblaze_0' is selected.
+13:16:49 INFO  : 'con' command is executed.
+13:16:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:16:49 INFO  : Launch script is exported to file 'D:\FPGA_RISC\vitis_gpio_led\20240620_btn_led_system\_ide\scripts\debugger_20240620_btn_led-default.tcl'
+13:33:52 INFO  : Checking for BSP changes to sync application flags for project '20240620_btn_led'...
+13:34:04 INFO  : Checking for BSP changes to sync application flags for project '20240620_btn_led'...
+13:34:14 INFO  : Disconnected from the channel tcfchan#5.
+13:34:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:34:15 INFO  : Jtag cable 'Digilent Basys3 210183B31917A' is selected.
+13:34:15 INFO  : 'jtag frequency' command is executed.
+13:34:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}' command is executed.
+13:34:16 INFO  : Device configured successfully with "D:/FPGA_RISC/vitis_gpio_led/20240620_btn_led/_ide/bitstream/btn_led_design_wrapper.bit"
+13:34:16 INFO  : Context for processor 'microblaze_0' is selected.
+13:34:16 INFO  : Hardware design and registers information is loaded from 'D:/FPGA_RISC/vitis_gpio_led/btn_led_design_wrapper/export/btn_led_design_wrapper/hw/btn_led_design_wrapper.xsa'.
+13:34:16 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:34:16 INFO  : Context for processor 'microblaze_0' is selected.
+13:34:16 INFO  : System reset is completed.
+13:34:19 INFO  : 'after 3000' command is executed.
+13:34:19 INFO  : Context for processor 'microblaze_0' is selected.
+13:34:20 INFO  : The application 'D:/FPGA_RISC/vitis_gpio_led/20240620_btn_led/Debug/20240620_btn_led.elf' is downloaded to processor 'microblaze_0'.
+13:34:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}
+fpga -file D:/FPGA_RISC/vitis_gpio_led/20240620_btn_led/_ide/bitstream/btn_led_design_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/FPGA_RISC/vitis_gpio_led/btn_led_design_wrapper/export/btn_led_design_wrapper/hw/btn_led_design_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/FPGA_RISC/vitis_gpio_led/20240620_btn_led/Debug/20240620_btn_led.elf
+----------------End of Script----------------
+
+13:34:20 INFO  : Context for processor 'microblaze_0' is selected.
+13:34:20 INFO  : 'con' command is executed.
+13:34:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:34:20 INFO  : Launch script is exported to file 'D:\FPGA_RISC\vitis_gpio_led\20240620_btn_led_system\_ide\scripts\debugger_20240620_btn_led-default.tcl'
+09:26:58 INFO  : Disconnected from the channel tcfchan#6.

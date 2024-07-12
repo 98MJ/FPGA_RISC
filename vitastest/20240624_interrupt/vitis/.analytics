@@ -1,0 +1,13 @@
+timestamp=[2024-06-24 13:26:41], mode=WORKBENCH_START, duration=0:00:03.872, duration_ms=3872, data={}
+timestamp=[2024-06-24 13:26:41], mode=WORKBENCH_UI_INIT, duration=0:00:00.215, duration_ms=215, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-06-24 13:26:43], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.997, duration_ms=1997, data={}
+timestamp=[2024-06-24 13:27:07], mode=APP_CREATION, duration=0:00:03.765, duration_ms=3765, data={name=btn_intc, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=btn_intc_ip, application_type=application}
+timestamp=[2024-06-24 13:27:26], mode=PLATFORM_GENERATION, duration=0:00:01.249, duration_ms=1249, data={name=btn_intc_ip}
+timestamp=[2024-06-24 13:27:26], mode=BUILD, duration=0:00:00.245, duration_ms=245, data={name=btn_intc, configuration=Debug, clean_build=false}
+timestamp=[2024-06-24 13:46:07], mode=WORKBENCH_START, duration=0:00:07.608, duration_ms=7608, data={}
+timestamp=[2024-06-24 13:46:08], mode=WORKBENCH_UI_INIT, duration=0:00:00.652, duration_ms=652, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,btn_intc,btn_intc_ip,btn_intc_system}
+timestamp=[2024-06-24 13:46:08], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.020, duration_ms=20, data={}
+timestamp=[2024-06-24 13:46:49], mode=APP_CREATION, duration=0:00:04.112, duration_ms=4112, data={name=btnIntc, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=finalfinalintc, application_type=application}
+timestamp=[2024-06-24 13:47:03], mode=PLATFORM_GENERATION, duration=0:00:04.309, duration_ms=4309, data={name=finalfinalintc}
+timestamp=[2024-06-24 13:47:04], mode=BUILD, duration=0:00:01.113, duration_ms=1113, data={name=btnIntc, configuration=Debug, clean_build=false}
+timestamp=[2024-06-24 13:48:57], mode=BUILD, duration=0:00:00.544, duration_ms=544, data={name=btnIntc, configuration=Debug, clean_build=false}

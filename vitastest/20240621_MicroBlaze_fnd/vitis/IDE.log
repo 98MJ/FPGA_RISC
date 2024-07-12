@@ -1,0 +1,170 @@
+14:17:37 INFO  : Registering command handlers for Vitis TCF services
+14:17:37 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\FPGA_RISC\vitastest\20240621_MicroBlaze_fnd\vitis\temp_xsdb_launch_script.tcl
+14:17:40 INFO  : Platform repository initialization has completed.
+14:17:40 INFO  : XSCT server has started successfully.
+14:17:40 INFO  : Successfully done setting XSCT server connection channel  
+14:17:40 INFO  : plnx-install-location is set to ''
+14:17:43 INFO  : Successfully done setting workspace for the tool. 
+14:17:43 INFO  : Successfully done query RDI_DATADIR 
+14:18:01 INFO  : Result from executing command 'getProjects': fndControl
+14:18:01 INFO  : Result from executing command 'getPlatforms': 
+14:18:01 WARN  : An unexpected exception occurred in the module 'platform project logging'
+14:18:01 INFO  : Platform 'fndControl' is added to custom repositories.
+14:18:02 INFO  : Platform 'fndControl' is added to custom repositories.
+14:18:22 INFO  : Result from executing command 'getProjects': fndControl
+14:18:22 INFO  : Result from executing command 'getPlatforms': fndControl|D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/export/fndControl/fndControl.xpfm
+14:18:22 INFO  : Checking for BSP changes to sync application flags for project 'fndControll'...
+14:20:43 INFO  : Checking for BSP changes to sync application flags for project 'fndControll'...
+14:20:49 INFO  : Checking for BSP changes to sync application flags for project 'fndControll'...
+14:21:07 INFO  : Checking for BSP changes to sync application flags for project 'fndControll'...
+14:21:13 INFO  : Checking for BSP changes to sync application flags for project 'fndControll'...
+14:22:16 INFO  : Checking for BSP changes to sync application flags for project 'fndControll'...
+14:22:35 INFO  : Checking for BSP changes to sync application flags for project 'fndControll'...
+14:23:18 INFO  : Checking for BSP changes to sync application flags for project 'fndControll'...
+14:23:30 INFO  : Checking for BSP changes to sync application flags for project 'fndControll'...
+14:23:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:23:42 INFO  : Jtag cable 'Digilent Basys3 210183B31917A' is selected.
+14:23:42 INFO  : 'jtag frequency' command is executed.
+14:23:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}' command is executed.
+14:23:44 INFO  : Device configured successfully with "D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControll/_ide/bitstream/fndControl.bit"
+14:23:44 INFO  : Context for processor 'microblaze_0' is selected.
+14:23:44 INFO  : Hardware design and registers information is loaded from 'D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/export/fndControl/hw/fndControl.xsa'.
+14:23:44 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:23:44 INFO  : Context for processor 'microblaze_0' is selected.
+14:23:44 INFO  : System reset is completed.
+14:23:47 INFO  : 'after 3000' command is executed.
+14:23:47 INFO  : Context for processor 'microblaze_0' is selected.
+14:23:47 INFO  : The application 'D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControll/Debug/fndControll.elf' is downloaded to processor 'microblaze_0'.
+14:23:47 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}
+fpga -file D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControll/_ide/bitstream/fndControl.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/export/fndControl/hw/fndControl.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControll/Debug/fndControll.elf
+----------------End of Script----------------
+
+14:23:47 INFO  : Context for processor 'microblaze_0' is selected.
+14:23:47 INFO  : 'con' command is executed.
+14:23:47 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:23:47 INFO  : Launch script is exported to file 'D:\FPGA_RISC\vitastest\20240621_MicroBlaze_fnd\vitis\fndControll_system\_ide\scripts\debugger_fndcontroll-default.tcl'
+14:24:09 INFO  : Disconnected from the channel tcfchan#2.
+14:24:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:24:10 INFO  : Jtag cable 'Digilent Basys3 210183B31917A' is selected.
+14:24:10 INFO  : 'jtag frequency' command is executed.
+14:24:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}' command is executed.
+14:24:11 INFO  : Device configured successfully with "D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControll/_ide/bitstream/fndControl.bit"
+14:24:11 INFO  : Context for processor 'microblaze_0' is selected.
+14:24:11 INFO  : Hardware design and registers information is loaded from 'D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/export/fndControl/hw/fndControl.xsa'.
+14:24:11 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:24:11 INFO  : Context for processor 'microblaze_0' is selected.
+14:24:11 INFO  : System reset is completed.
+14:24:14 INFO  : 'after 3000' command is executed.
+14:24:14 INFO  : Context for processor 'microblaze_0' is selected.
+14:24:14 INFO  : The application 'D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControll/Debug/fndControll.elf' is downloaded to processor 'microblaze_0'.
+14:24:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}
+fpga -file D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControll/_ide/bitstream/fndControl.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/export/fndControl/hw/fndControl.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControll/Debug/fndControll.elf
+----------------End of Script----------------
+
+14:24:14 INFO  : Context for processor 'microblaze_0' is selected.
+14:24:14 INFO  : 'con' command is executed.
+14:24:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:24:14 INFO  : Launch script is exported to file 'D:\FPGA_RISC\vitastest\20240621_MicroBlaze_fnd\vitis\fndControll_system\_ide\scripts\debugger_fndcontroll-default.tcl'
+14:24:46 INFO  : Disconnected from the channel tcfchan#3.
+14:24:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:24:47 INFO  : Jtag cable 'Digilent Basys3 210183B31917A' is selected.
+14:24:47 INFO  : 'jtag frequency' command is executed.
+14:24:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}' command is executed.
+14:24:48 INFO  : Device configured successfully with "D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControll/_ide/bitstream/fndControl.bit"
+14:24:48 INFO  : Context for processor 'microblaze_0' is selected.
+14:24:48 INFO  : Hardware design and registers information is loaded from 'D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/export/fndControl/hw/fndControl.xsa'.
+14:24:48 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:24:48 INFO  : Context for processor 'microblaze_0' is selected.
+14:24:48 INFO  : System reset is completed.
+14:24:51 INFO  : 'after 3000' command is executed.
+14:24:51 INFO  : Context for processor 'microblaze_0' is selected.
+14:24:51 INFO  : The application 'D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControll/Debug/fndControll.elf' is downloaded to processor 'microblaze_0'.
+14:24:51 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}
+fpga -file D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControll/_ide/bitstream/fndControl.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/export/fndControl/hw/fndControl.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControll/Debug/fndControll.elf
+----------------End of Script----------------
+
+14:24:51 INFO  : Context for processor 'microblaze_0' is selected.
+14:24:51 INFO  : 'con' command is executed.
+14:24:51 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:24:51 INFO  : Launch script is exported to file 'D:\FPGA_RISC\vitastest\20240621_MicroBlaze_fnd\vitis\fndControll_system\_ide\scripts\debugger_fndcontroll-default.tcl'
+14:28:44 INFO  : Checking for BSP changes to sync application flags for project 'fndControll'...
+14:30:50 INFO  : Checking for BSP changes to sync application flags for project 'fndControll'...
+14:30:59 INFO  : Disconnected from the channel tcfchan#4.
+14:31:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:31:00 INFO  : Jtag cable 'Digilent Basys3 210183B31917A' is selected.
+14:31:00 INFO  : 'jtag frequency' command is executed.
+14:31:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}' command is executed.
+14:31:02 INFO  : Device configured successfully with "D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControll/_ide/bitstream/fndControl.bit"
+14:31:02 INFO  : Context for processor 'microblaze_0' is selected.
+14:31:02 INFO  : Hardware design and registers information is loaded from 'D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/export/fndControl/hw/fndControl.xsa'.
+14:31:02 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:31:02 INFO  : Context for processor 'microblaze_0' is selected.
+14:31:02 INFO  : System reset is completed.
+14:31:05 INFO  : 'after 3000' command is executed.
+14:31:05 INFO  : Context for processor 'microblaze_0' is selected.
+14:31:05 INFO  : The application 'D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControll/Debug/fndControll.elf' is downloaded to processor 'microblaze_0'.
+14:31:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31917A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31917A-0362d093-0"}
+fpga -file D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControll/_ide/bitstream/fndControl.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/export/fndControl/hw/fndControl.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControll/Debug/fndControll.elf
+----------------End of Script----------------
+
+14:31:05 INFO  : Context for processor 'microblaze_0' is selected.
+14:31:05 INFO  : 'con' command is executed.
+14:31:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:31:05 INFO  : Launch script is exported to file 'D:\FPGA_RISC\vitastest\20240621_MicroBlaze_fnd\vitis\fndControll_system\_ide\scripts\debugger_fndcontroll-default.tcl'
+14:24:59 INFO  : Disconnected from the channel tcfchan#5.

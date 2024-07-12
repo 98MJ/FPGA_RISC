@@ -1,0 +1,21 @@
+13:34:04 **** Incremental Build of configuration Debug for project 20240620_btn_led ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -ID:/FPGA_RISC/vitis_gpio_led/btn_led_design_wrapper/export/btn_led_design_wrapper/sw/btn_led_design_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: 20240620_btn_led.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/FPGA_RISC/vitis_gpio_led/btn_led_design_wrapper/export/btn_led_design_wrapper/sw/btn_led_design_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "20240620_btn_led.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: 20240620_btn_led.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size 20240620_btn_led.elf  |tee "20240620_btn_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3172	    304	   3148	   6624	   19e0	20240620_btn_led.elf
+'Finished building: 20240620_btn_led.elf.size'
+' '
+
+13:34:05 Build Finished (took 474ms)
+

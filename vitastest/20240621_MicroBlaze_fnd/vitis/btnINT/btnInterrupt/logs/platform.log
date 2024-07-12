@@ -1,0 +1,993 @@
+TRACE::2024-06-24.11:23:00::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:00::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:00::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:01::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw
+TRACE::2024-06-24.11:23:01::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:01::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-24.11:23:01::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-06-24.11:23:01::SCWPlatform::Opened new HwDB with name design_1_wrapper_0
+TRACE::2024-06-24.11:23:01::SCWWriter::formatted JSON is {
+	"platformName":	"btnInterrupt",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"btnInterrupt",
+	"platHandOff":	"D:/FPGA_RISC/vitastest/20240624_interrupt/btnInterrupt.xsa",
+	"platIntHandOff":	"<platformDir>/hw/btnInterrupt.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2024-06-24.11:23:01::SCWWriter::formatted JSON is {
+	"platformName":	"btnInterrupt",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"btnInterrupt",
+	"platHandOff":	"D:/FPGA_RISC/vitastest/20240624_interrupt/btnInterrupt.xsa",
+	"platIntHandOff":	"<platformDir>/hw/btnInterrupt.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"btnInterrupt",
+	"systems":	[{
+			"systemName":	"btnInterrupt",
+			"systemDesc":	"btnInterrupt",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"btnInterrupt"
+		}]
+}
+TRACE::2024-06-24.11:23:01::SCWPlatform::Boot application domains not present, creating them
+TRACE::2024-06-24.11:23:01::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2024-06-24.11:23:01::SCWWriter::formatted JSON is {
+	"platformName":	"btnInterrupt",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"btnInterrupt",
+	"platHandOff":	"D:/FPGA_RISC/vitastest/20240624_interrupt/btnInterrupt.xsa",
+	"platIntHandOff":	"<platformDir>/hw/btnInterrupt.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"btnInterrupt",
+	"systems":	[{
+			"systemName":	"btnInterrupt",
+			"systemDesc":	"btnInterrupt",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"btnInterrupt"
+		}]
+}
+TRACE::2024-06-24.11:23:01::SCWWriter::formatted JSON is {
+	"platformName":	"btnInterrupt",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"btnInterrupt",
+	"platHandOff":	"D:/FPGA_RISC/vitastest/20240624_interrupt/btnInterrupt.xsa",
+	"platIntHandOff":	"<platformDir>/hw/btnInterrupt.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"btnInterrupt",
+	"systems":	[{
+			"systemName":	"btnInterrupt",
+			"systemDesc":	"btnInterrupt",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"btnInterrupt"
+		}]
+}
+TRACE::2024-06-24.11:23:01::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:01::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:01::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:01::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw
+TRACE::2024-06-24.11:23:01::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:01::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-24.11:23:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-24.11:23:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-24.11:23:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-24.11:23:01::SCWDomain::checking for install qemu data   : 
+TRACE::2024-06-24.11:23:01::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:01::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:01::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:01::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw
+TRACE::2024-06-24.11:23:01::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:01::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-24.11:23:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-24.11:23:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-24.11:23:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-24.11:23:01::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:01::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:01::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:01::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw
+TRACE::2024-06-24.11:23:01::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:01::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-24.11:23:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-24.11:23:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-24.11:23:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-24.11:23:01::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:01::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:01::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:01::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw
+TRACE::2024-06-24.11:23:01::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:01::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-24.11:23:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-24.11:23:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-24.11:23:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-24.11:23:01::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:01::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-06-24.11:23:01::SCWMssOS::No sw design opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:01::SCWMssOS::mss does not exists at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:01::SCWMssOS::Creating sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:01::SCWMssOS::Adding the swdes entry, created swdb D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:01::SCWMssOS::updating the scw layer changes to swdes at   D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:01::SCWMssOS::Writing mss at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:01::SCWMssOS::Completed writing the mss file at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-06-24.11:23:01::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2024-06-24.11:23:01::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2024-06-24.11:23:01::SCWMssOS::Completed writing the mss file at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-06-24.11:23:01::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2024-06-24.11:23:03::SCWMssOS::Saving the mss changes D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-06-24.11:23:03::SCWMssOS::Running validate of swdbs.
+KEYINFO::2024-06-24.11:23:03::SCWMssOS::Could not open the swdb for D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+KEYINFO::2024-06-24.11:23:03::SCWMssOS::Could not open the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss is not found
+
+TRACE::2024-06-24.11:23:03::SCWMssOS::Cleared the swdb table entry
+TRACE::2024-06-24.11:23:03::SCWMssOS::Adding the swdes entry, mss present, able to open swdb D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2024-06-24.11:23:03::SCWMssOS::Writing the mss file completed D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::Commit changes completed.
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-24.11:23:03::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-24.11:23:03::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-24.11:23:03::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-24.11:23:03::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-24.11:23:03::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-24.11:23:03::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWWriter::formatted JSON is {
+	"platformName":	"btnInterrupt",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"btnInterrupt",
+	"platHandOff":	"D:/FPGA_RISC/vitastest/20240624_interrupt/btnInterrupt.xsa",
+	"platIntHandOff":	"<platformDir>/hw/btnInterrupt.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"btnInterrupt",
+	"systems":	[{
+			"systemName":	"btnInterrupt",
+			"systemDesc":	"btnInterrupt",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"btnInterrupt",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"aea591d8525f1f137c0f98226d626b69",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-06-24.11:23:03::SCWPlatform::Started generating the artifacts platform btnInterrupt
+TRACE::2024-06-24.11:23:03::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-06-24.11:23:03::SCWPlatform::Started generating the artifacts for system configuration btnInterrupt
+LOG::2024-06-24.11:23:03::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-06-24.11:23:03::SCWSystem::Not a boot domain 
+LOG::2024-06-24.11:23:03::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-06-24.11:23:03::SCWDomain::Generating domain artifcats
+TRACE::2024-06-24.11:23:03::SCWMssOS::Generating standalone artifcats
+TRACE::2024-06-24.11:23:03::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-24.11:23:03::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-24.11:23:03::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::Completed writing the mss file at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-06-24.11:23:03::SCWMssOS::Mss edits present, copying mssfile into export location D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-06-24.11:23:03::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-06-24.11:23:03::SCWDomain::Skipping the build for domain :  standalone_microblaze_0
+TRACE::2024-06-24.11:23:03::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-06-24.11:23:03::SCWMssOS::Copying to export directory.
+TRACE::2024-06-24.11:23:03::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-06-24.11:23:03::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-06-24.11:23:03::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2024-06-24.11:23:03::SCWSystem::Completed Processing the sysconfig btnInterrupt
+LOG::2024-06-24.11:23:03::SCWPlatform::Completed generating the artifacts for system configuration btnInterrupt
+TRACE::2024-06-24.11:23:03::SCWPlatform::Started preparing the platform 
+TRACE::2024-06-24.11:23:03::SCWSystem::Writing the bif file for system config btnInterrupt
+TRACE::2024-06-24.11:23:03::SCWSystem::dir created 
+TRACE::2024-06-24.11:23:03::SCWSystem::Writing the bif 
+TRACE::2024-06-24.11:23:03::SCWPlatform::Started writing the spfm file 
+TRACE::2024-06-24.11:23:03::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-06-24.11:23:03::SCWPlatform::Completed generating the platform
+TRACE::2024-06-24.11:23:03::SCWMssOS::Saving the mss changes D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-06-24.11:23:03::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-06-24.11:23:03::SCWMssOS::Commit changes completed.
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-24.11:23:03::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-24.11:23:03::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-24.11:23:03::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-24.11:23:03::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-24.11:23:03::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-24.11:23:03::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWWriter::formatted JSON is {
+	"platformName":	"btnInterrupt",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"btnInterrupt",
+	"platHandOff":	"D:/FPGA_RISC/vitastest/20240624_interrupt/btnInterrupt.xsa",
+	"platIntHandOff":	"<platformDir>/hw/btnInterrupt.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"btnInterrupt",
+	"systems":	[{
+			"systemName":	"btnInterrupt",
+			"systemDesc":	"btnInterrupt",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"btnInterrupt",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"aea591d8525f1f137c0f98226d626b69",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-06-24.11:23:03::SCWPlatform::updated the xpfm file.
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-24.11:23:03::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-24.11:23:03::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::Saving the mss changes D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-06-24.11:23:03::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-06-24.11:23:03::SCWMssOS::Commit changes completed.
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-24.11:23:03::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-24.11:23:03::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-24.11:23:03::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-24.11:23:03::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-24.11:23:03::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-24.11:23:03::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWWriter::formatted JSON is {
+	"platformName":	"btnInterrupt",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"btnInterrupt",
+	"platHandOff":	"D:/FPGA_RISC/vitastest/20240624_interrupt/btnInterrupt.xsa",
+	"platIntHandOff":	"<platformDir>/hw/btnInterrupt.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"btnInterrupt",
+	"systems":	[{
+			"systemName":	"btnInterrupt",
+			"systemDesc":	"btnInterrupt",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"btnInterrupt",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"aea591d8525f1f137c0f98226d626b69",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-24.11:23:03::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-24.11:23:03::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-24.11:23:03::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-24.11:23:03::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::Saving the mss changes D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-06-24.11:23:03::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-06-24.11:23:03::SCWMssOS::Commit changes completed.
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-24.11:23:03::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-24.11:23:03::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-24.11:23:03::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-24.11:23:03::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-24.11:23:03::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-24.11:23:03::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWWriter::formatted JSON is {
+	"platformName":	"btnInterrupt",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"btnInterrupt",
+	"platHandOff":	"D:/FPGA_RISC/vitastest/20240624_interrupt/btnInterrupt.xsa",
+	"platIntHandOff":	"<platformDir>/hw/btnInterrupt.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"btnInterrupt",
+	"systems":	[{
+			"systemName":	"btnInterrupt",
+			"systemDesc":	"btnInterrupt",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"btnInterrupt",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"aea591d8525f1f137c0f98226d626b69",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-06-24.11:23:03::SCWPlatform::Started generating the artifacts platform btnInterrupt
+TRACE::2024-06-24.11:23:03::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-06-24.11:23:03::SCWPlatform::Started generating the artifacts for system configuration btnInterrupt
+LOG::2024-06-24.11:23:03::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-06-24.11:23:03::SCWDomain::Generating domain artifcats
+TRACE::2024-06-24.11:23:03::SCWMssOS::Generating standalone artifcats
+TRACE::2024-06-24.11:23:03::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-24.11:23:03::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-24.11:23:03::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::Completed writing the mss file at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-06-24.11:23:03::SCWMssOS::Mss edits present, copying mssfile into export location D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-06-24.11:23:03::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-06-24.11:23:03::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2024-06-24.11:23:03::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-06-24.11:23:03::SCWMssOS::Copying to export directory.
+TRACE::2024-06-24.11:23:03::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-06-24.11:23:03::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-06-24.11:23:03::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2024-06-24.11:23:03::SCWSystem::Completed Processing the sysconfig btnInterrupt
+LOG::2024-06-24.11:23:03::SCWPlatform::Completed generating the artifacts for system configuration btnInterrupt
+TRACE::2024-06-24.11:23:03::SCWPlatform::Started preparing the platform 
+TRACE::2024-06-24.11:23:03::SCWSystem::Writing the bif file for system config btnInterrupt
+TRACE::2024-06-24.11:23:03::SCWSystem::dir created 
+TRACE::2024-06-24.11:23:03::SCWSystem::Writing the bif 
+TRACE::2024-06-24.11:23:03::SCWPlatform::Started writing the spfm file 
+TRACE::2024-06-24.11:23:03::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-06-24.11:23:03::SCWPlatform::Completed generating the platform
+TRACE::2024-06-24.11:23:03::SCWMssOS::Saving the mss changes D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-06-24.11:23:03::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-06-24.11:23:03::SCWMssOS::Commit changes completed.
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-24.11:23:03::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-24.11:23:03::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-24.11:23:03::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-24.11:23:03::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:03::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-24.11:23:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-24.11:23:03::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-24.11:23:03::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:03::SCWWriter::formatted JSON is {
+	"platformName":	"btnInterrupt",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"btnInterrupt",
+	"platHandOff":	"D:/FPGA_RISC/vitastest/20240624_interrupt/btnInterrupt.xsa",
+	"platIntHandOff":	"<platformDir>/hw/btnInterrupt.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"btnInterrupt",
+	"systems":	[{
+			"systemName":	"btnInterrupt",
+			"systemDesc":	"btnInterrupt",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"btnInterrupt",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"aea591d8525f1f137c0f98226d626b69",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-06-24.11:23:03::SCWPlatform::updated the xpfm file.
+LOG::2024-06-24.11:23:17::SCWPlatform::Started generating the artifacts platform btnInterrupt
+TRACE::2024-06-24.11:23:17::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-06-24.11:23:17::SCWPlatform::Started generating the artifacts for system configuration btnInterrupt
+LOG::2024-06-24.11:23:17::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-06-24.11:23:17::SCWSystem::Not a boot domain 
+LOG::2024-06-24.11:23:17::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-06-24.11:23:17::SCWDomain::Generating domain artifcats
+TRACE::2024-06-24.11:23:17::SCWMssOS::Generating standalone artifcats
+TRACE::2024-06-24.11:23:17::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-06-24.11:23:17::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:17::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:17::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:17::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw
+TRACE::2024-06-24.11:23:17::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:17::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-24.11:23:17::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-24.11:23:17::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-24.11:23:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-24.11:23:17::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:17::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-24.11:23:17::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:17::SCWMssOS::Completed writing the mss file at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-06-24.11:23:17::SCWMssOS::Mss edits present, copying mssfile into export location D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:17::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-06-24.11:23:17::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-06-24.11:23:17::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2024-06-24.11:23:17::SCWMssOS::doing bsp build ... 
+TRACE::2024-06-24.11:23:17::SCWMssOS::System Command Ran  D: & cd  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2024-06-24.11:23:17::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2024-06-24.11:23:17::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2024-06-24.11:23:17::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-06-24.11:23:17::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-06-24.11:23:17::SCWMssOS::-Wextra"
+
+TRACE::2024-06-24.11:23:17::SCWMssOS::"Running Make include in microblaze_0/libsrc/buttondetector_v1_0/src"
+
+TRACE::2024-06-24.11:23:17::SCWMssOS::make -C microblaze_0/libsrc/buttondetector_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2024-06-24.11:23:17::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2024-06-24.11:23:17::SCWMssOS::ons -Wall -Wextra"
+
+ERROR::2024-06-24.11:23:17::SCWMssOS::Failed to build  the bsp sources for domain - standalone_microblaze_0
+ERROR::2024-06-24.11:23:17::SCWSystem::Error in Processing the domain standalone_microblaze_0
+LOG::2024-06-24.11:23:59::SCWPlatform::Started generating the artifacts platform btnInterrupt
+TRACE::2024-06-24.11:23:59::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-06-24.11:23:59::SCWPlatform::Started generating the artifacts for system configuration btnInterrupt
+LOG::2024-06-24.11:23:59::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-06-24.11:23:59::SCWSystem::Not a boot domain 
+LOG::2024-06-24.11:23:59::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-06-24.11:23:59::SCWDomain::Generating domain artifcats
+TRACE::2024-06-24.11:23:59::SCWMssOS::Generating standalone artifcats
+TRACE::2024-06-24.11:23:59::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-06-24.11:23:59::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:59::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:59::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:59::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw
+TRACE::2024-06-24.11:23:59::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:23:59::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-24.11:23:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-24.11:23:59::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-24.11:23:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-24.11:23:59::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:59::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-24.11:23:59::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:59::SCWMssOS::Completed writing the mss file at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-06-24.11:23:59::SCWMssOS::Mss edits present, copying mssfile into export location D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:23:59::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-06-24.11:23:59::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-06-24.11:23:59::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2024-06-24.11:23:59::SCWMssOS::doing bsp build ... 
+TRACE::2024-06-24.11:23:59::SCWMssOS::System Command Ran  D: & cd  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2024-06-24.11:23:59::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2024-06-24.11:23:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2024-06-24.11:23:59::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-06-24.11:23:59::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-06-24.11:23:59::SCWMssOS::-Wextra"
+
+TRACE::2024-06-24.11:23:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/buttondetector_v1_0/src"
+
+TRACE::2024-06-24.11:23:59::SCWMssOS::make -C microblaze_0/libsrc/buttondetector_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2024-06-24.11:23:59::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2024-06-24.11:23:59::SCWMssOS::ons -Wall -Wextra"
+
+ERROR::2024-06-24.11:23:59::SCWMssOS::Failed to build  the bsp sources for domain - standalone_microblaze_0
+ERROR::2024-06-24.11:23:59::SCWSystem::Error in Processing the domain standalone_microblaze_0
+LOG::2024-06-24.11:24:09::SCWPlatform::Started generating the artifacts platform btnInterrupt
+TRACE::2024-06-24.11:24:09::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-06-24.11:24:09::SCWPlatform::Started generating the artifacts for system configuration btnInterrupt
+LOG::2024-06-24.11:24:09::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-06-24.11:24:09::SCWSystem::Not a boot domain 
+LOG::2024-06-24.11:24:09::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-06-24.11:24:09::SCWDomain::Generating domain artifcats
+TRACE::2024-06-24.11:24:09::SCWMssOS::Generating standalone artifcats
+TRACE::2024-06-24.11:24:09::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-06-24.11:24:09::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:24:09::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:24:09::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:24:09::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw
+TRACE::2024-06-24.11:24:09::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:24:09::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-24.11:24:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-24.11:24:09::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-24.11:24:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-24.11:24:09::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:24:09::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-24.11:24:09::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:24:09::SCWMssOS::Completed writing the mss file at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-06-24.11:24:09::SCWMssOS::Mss edits present, copying mssfile into export location D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:24:09::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-06-24.11:24:09::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-06-24.11:24:09::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2024-06-24.11:24:09::SCWMssOS::doing bsp build ... 
+TRACE::2024-06-24.11:24:09::SCWMssOS::System Command Ran  D: & cd  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2024-06-24.11:24:09::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2024-06-24.11:24:09::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2024-06-24.11:24:09::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-06-24.11:24:09::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-06-24.11:24:09::SCWMssOS::-Wextra"
+
+TRACE::2024-06-24.11:24:09::SCWMssOS::"Running Make include in microblaze_0/libsrc/buttondetector_v1_0/src"
+
+TRACE::2024-06-24.11:24:09::SCWMssOS::make -C microblaze_0/libsrc/buttondetector_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2024-06-24.11:24:09::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2024-06-24.11:24:09::SCWMssOS::ons -Wall -Wextra"
+
+ERROR::2024-06-24.11:24:09::SCWMssOS::Failed to build  the bsp sources for domain - standalone_microblaze_0
+ERROR::2024-06-24.11:24:09::SCWSystem::Error in Processing the domain standalone_microblaze_0
+LOG::2024-06-24.11:27:43::SCWPlatform::Started generating the artifacts platform btnInterrupt
+TRACE::2024-06-24.11:27:43::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-06-24.11:27:43::SCWPlatform::Started generating the artifacts for system configuration btnInterrupt
+LOG::2024-06-24.11:27:43::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-06-24.11:27:43::SCWSystem::Not a boot domain 
+LOG::2024-06-24.11:27:43::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-06-24.11:27:43::SCWDomain::Generating domain artifcats
+TRACE::2024-06-24.11:27:43::SCWMssOS::Generating standalone artifcats
+TRACE::2024-06-24.11:27:43::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-06-24.11:27:43::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:27:43::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:27:43::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:27:43::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw
+TRACE::2024-06-24.11:27:43::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:27:43::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-24.11:27:43::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-24.11:27:43::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-24.11:27:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-24.11:27:43::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:27:43::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-24.11:27:43::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:27:43::SCWMssOS::Completed writing the mss file at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-06-24.11:27:43::SCWMssOS::Mss edits present, copying mssfile into export location D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:27:43::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-06-24.11:27:43::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-06-24.11:27:43::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2024-06-24.11:27:43::SCWMssOS::doing bsp build ... 
+TRACE::2024-06-24.11:27:43::SCWMssOS::System Command Ran  D: & cd  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2024-06-24.11:27:43::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2024-06-24.11:27:43::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2024-06-24.11:27:43::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-06-24.11:27:43::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-06-24.11:27:43::SCWMssOS::-Wextra"
+
+TRACE::2024-06-24.11:27:43::SCWMssOS::"Running Make include in microblaze_0/libsrc/buttondetector_v1_0/src"
+
+TRACE::2024-06-24.11:27:43::SCWMssOS::make -C microblaze_0/libsrc/buttondetector_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2024-06-24.11:27:43::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2024-06-24.11:27:43::SCWMssOS::ons -Wall -Wextra"
+
+ERROR::2024-06-24.11:27:43::SCWMssOS::Failed to build  the bsp sources for domain - standalone_microblaze_0
+ERROR::2024-06-24.11:27:43::SCWSystem::Error in Processing the domain standalone_microblaze_0
+LOG::2024-06-24.11:27:54::SCWPlatform::Started generating the artifacts platform btnInterrupt
+TRACE::2024-06-24.11:27:54::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-06-24.11:27:54::SCWPlatform::Started generating the artifacts for system configuration btnInterrupt
+LOG::2024-06-24.11:27:54::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-06-24.11:27:54::SCWSystem::Not a boot domain 
+LOG::2024-06-24.11:27:54::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-06-24.11:27:54::SCWDomain::Generating domain artifcats
+TRACE::2024-06-24.11:27:54::SCWMssOS::Generating standalone artifcats
+TRACE::2024-06-24.11:27:54::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-06-24.11:27:54::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:27:54::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:27:54::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:27:54::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw
+TRACE::2024-06-24.11:27:54::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/hw/btnInterrupt.xsa
+TRACE::2024-06-24.11:27:54::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-24.11:27:54::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-24.11:27:54::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-24.11:27:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-24.11:27:54::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:27:54::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-24.11:27:54::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:27:54::SCWMssOS::Completed writing the mss file at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-06-24.11:27:54::SCWMssOS::Mss edits present, copying mssfile into export location D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-24.11:27:54::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-06-24.11:27:54::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-06-24.11:27:54::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2024-06-24.11:27:54::SCWMssOS::doing bsp build ... 
+TRACE::2024-06-24.11:27:54::SCWMssOS::System Command Ran  D: & cd  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/btnINT/btnInterrupt/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2024-06-24.11:27:54::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2024-06-24.11:27:54::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2024-06-24.11:27:54::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-06-24.11:27:54::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-06-24.11:27:54::SCWMssOS::-Wextra"
+
+TRACE::2024-06-24.11:27:54::SCWMssOS::"Running Make include in microblaze_0/libsrc/buttondetector_v1_0/src"
+
+TRACE::2024-06-24.11:27:54::SCWMssOS::make -C microblaze_0/libsrc/buttondetector_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2024-06-24.11:27:54::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2024-06-24.11:27:54::SCWMssOS::ons -Wall -Wextra"
+
+ERROR::2024-06-24.11:27:54::SCWMssOS::Failed to build  the bsp sources for domain - standalone_microblaze_0
+ERROR::2024-06-24.11:27:54::SCWSystem::Error in Processing the domain standalone_microblaze_0

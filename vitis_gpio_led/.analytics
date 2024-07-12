@@ -1,0 +1,34 @@
+timestamp=[2024-06-19 16:40:25], mode=WORKBENCH_START, duration=0:00:04.691, duration_ms=4691, data={}
+timestamp=[2024-06-19 16:40:25], mode=WORKBENCH_UI_INIT, duration=0:00:00.439, duration_ms=439, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-06-19 16:40:29], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:03.589, duration_ms=3589, data={}
+timestamp=[2024-06-19 16:43:04], mode=APP_CREATION, duration=0:00:04.802, duration_ms=4802, data={name=led_blink, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=led_design_wrapper, application_type=application}
+timestamp=[2024-06-19 16:44:38], mode=PLATFORM_GENERATION, duration=0:00:03.217, duration_ms=3217, data={name=led_design_wrapper}
+timestamp=[2024-06-19 16:44:39], mode=BUILD, duration=0:00:01.233, duration_ms=1233, data={name=led_blink, configuration=Debug, clean_build=false}
+timestamp=[2024-06-19 16:55:54], mode=BUILD, duration=0:00:00.541, duration_ms=541, data={name=led_blink, configuration=Debug, clean_build=false}
+timestamp=[2024-06-19 16:56:19], mode=BUILD, duration=0:00:00.104, duration_ms=104, data={name=led_blink, configuration=Debug, clean_build=false}
+timestamp=[2024-06-19 16:56:24], mode=BUILD, duration=0:00:00.099, duration_ms=99, data={name=led_blink, configuration=Debug, clean_build=false}
+timestamp=[2024-06-19 16:56:28], mode=BUILD, duration=0:00:00.099, duration_ms=99, data={name=led_blink, configuration=Debug, clean_build=false}
+timestamp=[2024-06-19 16:57:16], mode=BUILD, duration=0:00:00.524, duration_ms=524, data={name=led_blink, configuration=Debug, clean_build=false}
+timestamp=[2024-06-19 17:19:28], mode=APP_CREATION, duration=0:00:01.503, duration_ms=1503, data={name=buttton, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=button_design_wrapper, application_type=application}
+timestamp=[2024-06-19 17:45:06], mode=PLATFORM_GENERATION, duration=0:00:03.206, duration_ms=3206, data={name=button_design_wrapper}
+timestamp=[2024-06-19 17:45:07], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=buttton, configuration=Debug, clean_build=false}
+timestamp=[2024-06-19 17:45:08], mode=BUILD, duration=0:00:00.211, duration_ms=211, data={name=buttton, configuration=Debug, clean_build=false}
+timestamp=[2024-06-19 17:54:05], mode=BUILD, duration=0:00:00.801, duration_ms=801, data={name=buttton, configuration=Debug, clean_build=false}
+timestamp=[2024-06-19 17:55:56], mode=BUILD, duration=0:00:00.535, duration_ms=535, data={name=buttton, configuration=Debug, clean_build=false}
+timestamp=[2024-06-19 17:56:30], mode=BUILD, duration=0:00:00.545, duration_ms=545, data={name=buttton, configuration=Debug, clean_build=false}
+timestamp=[2024-06-19 17:57:28], mode=BUILD, duration=0:00:00.540, duration_ms=540, data={name=buttton, configuration=Debug, clean_build=false}
+timestamp=[2024-06-19 17:58:08], mode=BUILD, duration=0:00:00.549, duration_ms=549, data={name=buttton, configuration=Debug, clean_build=false}
+timestamp=[2024-06-19 17:59:29], mode=BUILD, duration=0:00:00.472, duration_ms=472, data={name=buttton, configuration=Debug, clean_build=false}
+timestamp=[2024-06-19 17:59:59], mode=BUILD, duration=0:00:00.534, duration_ms=534, data={name=buttton, configuration=Debug, clean_build=false}
+timestamp=[2024-06-20 11:00:35], mode=WORKBENCH_START, duration=0:00:09.840, duration_ms=9840, data={}
+timestamp=[2024-06-20 11:00:35], mode=WORKBENCH_UI_INIT, duration=0:00:00.673, duration_ms=673, data={editors_count=4, platform_editors_count=1, projects_count=7, platform_projects_count=2, active_platform_editor=false, projects=RemoteSystemsTempFiles,button_design_wrapper,buttton,buttton_system,led_blink,led_blink_system,led_design_wrapper}
+timestamp=[2024-06-20 11:00:36], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.074, duration_ms=74, data={}
+timestamp=[2024-06-20 11:13:44], mode=APP_CREATION, duration=0:00:04.274, duration_ms=4274, data={name=20240620_btn_led, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=btn_led_design_wrapper, application_type=application}
+timestamp=[2024-06-20 11:36:47], mode=PLATFORM_GENERATION, duration=0:00:03.328, duration_ms=3328, data={name=btn_led_design_wrapper}
+timestamp=[2024-06-20 11:36:48], mode=BUILD, duration=0:00:01.289, duration_ms=1289, data={name=20240620_btn_led, configuration=Debug, clean_build=false}
+timestamp=[2024-06-20 11:46:50], mode=BUILD, duration=0:00:00.540, duration_ms=540, data={name=20240620_btn_led, configuration=Debug, clean_build=false}
+timestamp=[2024-06-20 11:52:12], mode=BUILD, duration=0:00:00.465, duration_ms=465, data={name=20240620_btn_led, configuration=Debug, clean_build=false}
+timestamp=[2024-06-20 13:16:22], mode=BUILD, duration=0:00:00.280, duration_ms=280, data={name=20240620_btn_led, configuration=Debug, clean_build=true}
+timestamp=[2024-06-20 13:16:23], mode=BUILD, duration=0:00:00.725, duration_ms=725, data={name=20240620_btn_led, configuration=Debug, clean_build=false}
+timestamp=[2024-06-20 13:33:52], mode=BUILD, duration=0:00:00.168, duration_ms=168, data={name=20240620_btn_led, configuration=Debug, clean_build=false}
+timestamp=[2024-06-20 13:34:05], mode=BUILD, duration=0:00:00.478, duration_ms=478, data={name=20240620_btn_led, configuration=Debug, clean_build=false}

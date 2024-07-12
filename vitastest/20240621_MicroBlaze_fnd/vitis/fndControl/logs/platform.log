@@ -1,0 +1,1088 @@
+TRACE::2024-06-21.14:17:58::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:17:58::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:17:58::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:17:59::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw
+TRACE::2024-06-21.14:17:59::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:17:59::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-21.14:17:59::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-06-21.14:17:59::SCWPlatform::Opened new HwDB with name design_1_wrapper_0
+TRACE::2024-06-21.14:17:59::SCWWriter::formatted JSON is {
+	"platformName":	"fndControl",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"fndControl",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/fndControl.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2024-06-21.14:17:59::SCWWriter::formatted JSON is {
+	"platformName":	"fndControl",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"fndControl",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/fndControl.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"fndControl",
+	"systems":	[{
+			"systemName":	"fndControl",
+			"systemDesc":	"fndControl",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"fndControl"
+		}]
+}
+TRACE::2024-06-21.14:17:59::SCWPlatform::Boot application domains not present, creating them
+TRACE::2024-06-21.14:17:59::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2024-06-21.14:17:59::SCWWriter::formatted JSON is {
+	"platformName":	"fndControl",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"fndControl",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/fndControl.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"fndControl",
+	"systems":	[{
+			"systemName":	"fndControl",
+			"systemDesc":	"fndControl",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"fndControl"
+		}]
+}
+TRACE::2024-06-21.14:17:59::SCWWriter::formatted JSON is {
+	"platformName":	"fndControl",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"fndControl",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/fndControl.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"fndControl",
+	"systems":	[{
+			"systemName":	"fndControl",
+			"systemDesc":	"fndControl",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"fndControl"
+		}]
+}
+TRACE::2024-06-21.14:17:59::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:17:59::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:17:59::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:17:59::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw
+TRACE::2024-06-21.14:17:59::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:17:59::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-21.14:17:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-21.14:17:59::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-21.14:17:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-21.14:17:59::SCWDomain::checking for install qemu data   : 
+TRACE::2024-06-21.14:17:59::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:17:59::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:17:59::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:17:59::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw
+TRACE::2024-06-21.14:17:59::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:17:59::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-21.14:17:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-21.14:17:59::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-21.14:17:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-21.14:17:59::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:17:59::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:17:59::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:17:59::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw
+TRACE::2024-06-21.14:17:59::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:17:59::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-21.14:17:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-21.14:17:59::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-21.14:17:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-21.14:17:59::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:17:59::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:17:59::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:17:59::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw
+TRACE::2024-06-21.14:17:59::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:17:59::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-21.14:17:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-21.14:17:59::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-21.14:17:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-21.14:17:59::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:17:59::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-06-21.14:17:59::SCWMssOS::No sw design opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:17:59::SCWMssOS::mss does not exists at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:17:59::SCWMssOS::Creating sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:17:59::SCWMssOS::Adding the swdes entry, created swdb D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:17:59::SCWMssOS::updating the scw layer changes to swdes at   D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:17:59::SCWMssOS::Writing mss at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:17:59::SCWMssOS::Completed writing the mss file at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-06-21.14:17:59::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2024-06-21.14:17:59::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2024-06-21.14:17:59::SCWMssOS::Completed writing the mss file at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-06-21.14:17:59::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2024-06-21.14:18:01::SCWMssOS::Saving the mss changes D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-06-21.14:18:01::SCWMssOS::Running validate of swdbs.
+KEYINFO::2024-06-21.14:18:01::SCWMssOS::Could not open the swdb for D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+KEYINFO::2024-06-21.14:18:01::SCWMssOS::Could not open the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss is not found
+
+TRACE::2024-06-21.14:18:01::SCWMssOS::Cleared the swdb table entry
+TRACE::2024-06-21.14:18:01::SCWMssOS::Adding the swdes entry, mss present, able to open swdb D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2024-06-21.14:18:01::SCWMssOS::Writing the mss file completed D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::Commit changes completed.
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-21.14:18:01::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-21.14:18:01::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-21.14:18:01::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-21.14:18:01::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-21.14:18:01::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-21.14:18:01::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWWriter::formatted JSON is {
+	"platformName":	"fndControl",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"fndControl",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/fndControl.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"fndControl",
+	"systems":	[{
+			"systemName":	"fndControl",
+			"systemDesc":	"fndControl",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"fndControl",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"328a85268d3555859f287300827cc465",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-06-21.14:18:01::SCWPlatform::Started generating the artifacts platform fndControl
+TRACE::2024-06-21.14:18:01::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-06-21.14:18:01::SCWPlatform::Started generating the artifacts for system configuration fndControl
+LOG::2024-06-21.14:18:01::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-06-21.14:18:01::SCWSystem::Not a boot domain 
+LOG::2024-06-21.14:18:01::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-06-21.14:18:01::SCWDomain::Generating domain artifcats
+TRACE::2024-06-21.14:18:01::SCWMssOS::Generating standalone artifcats
+TRACE::2024-06-21.14:18:01::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-21.14:18:01::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-21.14:18:01::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::Completed writing the mss file at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-06-21.14:18:01::SCWMssOS::Mss edits present, copying mssfile into export location D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-06-21.14:18:01::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-06-21.14:18:01::SCWDomain::Skipping the build for domain :  standalone_microblaze_0
+TRACE::2024-06-21.14:18:01::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-06-21.14:18:01::SCWMssOS::Copying to export directory.
+TRACE::2024-06-21.14:18:01::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-06-21.14:18:01::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-06-21.14:18:01::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2024-06-21.14:18:01::SCWSystem::Completed Processing the sysconfig fndControl
+LOG::2024-06-21.14:18:01::SCWPlatform::Completed generating the artifacts for system configuration fndControl
+TRACE::2024-06-21.14:18:01::SCWPlatform::Started preparing the platform 
+TRACE::2024-06-21.14:18:01::SCWSystem::Writing the bif file for system config fndControl
+TRACE::2024-06-21.14:18:01::SCWSystem::dir created 
+TRACE::2024-06-21.14:18:01::SCWSystem::Writing the bif 
+TRACE::2024-06-21.14:18:01::SCWPlatform::Started writing the spfm file 
+TRACE::2024-06-21.14:18:01::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-06-21.14:18:01::SCWPlatform::Completed generating the platform
+TRACE::2024-06-21.14:18:01::SCWMssOS::Saving the mss changes D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-06-21.14:18:01::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-06-21.14:18:01::SCWMssOS::Commit changes completed.
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-21.14:18:01::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-21.14:18:01::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-21.14:18:01::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-21.14:18:01::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-21.14:18:01::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-21.14:18:01::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWWriter::formatted JSON is {
+	"platformName":	"fndControl",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"fndControl",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/fndControl.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"fndControl",
+	"systems":	[{
+			"systemName":	"fndControl",
+			"systemDesc":	"fndControl",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"fndControl",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"328a85268d3555859f287300827cc465",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-06-21.14:18:01::SCWPlatform::updated the xpfm file.
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-21.14:18:01::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-21.14:18:01::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::Saving the mss changes D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-06-21.14:18:01::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-06-21.14:18:01::SCWMssOS::Commit changes completed.
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-21.14:18:01::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-21.14:18:01::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-21.14:18:01::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-21.14:18:01::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-21.14:18:01::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-21.14:18:01::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWWriter::formatted JSON is {
+	"platformName":	"fndControl",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"fndControl",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/fndControl.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"fndControl",
+	"systems":	[{
+			"systemName":	"fndControl",
+			"systemDesc":	"fndControl",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"fndControl",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"328a85268d3555859f287300827cc465",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-21.14:18:01::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-21.14:18:01::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-21.14:18:01::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-21.14:18:01::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::Saving the mss changes D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-06-21.14:18:01::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-06-21.14:18:01::SCWMssOS::Commit changes completed.
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-21.14:18:01::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-21.14:18:01::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-21.14:18:01::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-21.14:18:01::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-21.14:18:01::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-21.14:18:01::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWWriter::formatted JSON is {
+	"platformName":	"fndControl",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"fndControl",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/fndControl.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"fndControl",
+	"systems":	[{
+			"systemName":	"fndControl",
+			"systemDesc":	"fndControl",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"fndControl",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"328a85268d3555859f287300827cc465",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-06-21.14:18:01::SCWPlatform::Started generating the artifacts platform fndControl
+TRACE::2024-06-21.14:18:01::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-06-21.14:18:01::SCWPlatform::Started generating the artifacts for system configuration fndControl
+LOG::2024-06-21.14:18:01::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-06-21.14:18:01::SCWDomain::Generating domain artifcats
+TRACE::2024-06-21.14:18:01::SCWMssOS::Generating standalone artifcats
+TRACE::2024-06-21.14:18:01::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-21.14:18:01::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-21.14:18:01::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::Completed writing the mss file at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-06-21.14:18:01::SCWMssOS::Mss edits present, copying mssfile into export location D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-06-21.14:18:01::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-06-21.14:18:01::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2024-06-21.14:18:01::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-06-21.14:18:01::SCWMssOS::Copying to export directory.
+TRACE::2024-06-21.14:18:01::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-06-21.14:18:01::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-06-21.14:18:01::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2024-06-21.14:18:01::SCWSystem::Completed Processing the sysconfig fndControl
+LOG::2024-06-21.14:18:01::SCWPlatform::Completed generating the artifacts for system configuration fndControl
+TRACE::2024-06-21.14:18:01::SCWPlatform::Started preparing the platform 
+TRACE::2024-06-21.14:18:01::SCWSystem::Writing the bif file for system config fndControl
+TRACE::2024-06-21.14:18:01::SCWSystem::dir created 
+TRACE::2024-06-21.14:18:01::SCWSystem::Writing the bif 
+TRACE::2024-06-21.14:18:01::SCWPlatform::Started writing the spfm file 
+TRACE::2024-06-21.14:18:01::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-06-21.14:18:01::SCWPlatform::Completed generating the platform
+TRACE::2024-06-21.14:18:01::SCWMssOS::Saving the mss changes D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-06-21.14:18:01::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-06-21.14:18:01::SCWMssOS::Commit changes completed.
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-21.14:18:01::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-21.14:18:01::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-21.14:18:01::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-21.14:18:01::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:01::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-21.14:18:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-21.14:18:01::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-21.14:18:01::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:01::SCWWriter::formatted JSON is {
+	"platformName":	"fndControl",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"fndControl",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/fndControl.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"fndControl",
+	"systems":	[{
+			"systemName":	"fndControl",
+			"systemDesc":	"fndControl",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"fndControl",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"328a85268d3555859f287300827cc465",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-06-21.14:18:01::SCWPlatform::updated the xpfm file.
+LOG::2024-06-21.14:18:19::SCWPlatform::Started generating the artifacts platform fndControl
+TRACE::2024-06-21.14:18:19::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-06-21.14:18:19::SCWPlatform::Started generating the artifacts for system configuration fndControl
+LOG::2024-06-21.14:18:19::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-06-21.14:18:19::SCWSystem::Not a boot domain 
+LOG::2024-06-21.14:18:19::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-06-21.14:18:19::SCWDomain::Generating domain artifcats
+TRACE::2024-06-21.14:18:19::SCWMssOS::Generating standalone artifcats
+TRACE::2024-06-21.14:18:19::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-06-21.14:18:19::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:19::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:19::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:19::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw
+TRACE::2024-06-21.14:18:19::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:19::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-21.14:18:19::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-21.14:18:19::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-21.14:18:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-21.14:18:19::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:19::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-21.14:18:19::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:19::SCWMssOS::Completed writing the mss file at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-06-21.14:18:19::SCWMssOS::Mss edits present, copying mssfile into export location D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:19::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-06-21.14:18:19::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-06-21.14:18:19::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2024-06-21.14:18:19::SCWMssOS::doing bsp build ... 
+TRACE::2024-06-21.14:18:19::SCWMssOS::System Command Ran  D: & cd  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2024-06-21.14:18:19::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2024-06-21.14:18:19::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2024-06-21.14:18:19::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-06-21.14:18:19::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-06-21.14:18:19::SCWMssOS::-Wextra"
+
+TRACE::2024-06-21.14:18:19::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2024-06-21.14:18:19::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-06-21.14:18:19::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-06-21.14:18:19::SCWMssOS::-Wextra"
+
+TRACE::2024-06-21.14:18:19::SCWMssOS::"Running Make include in microblaze_0/libsrc/FNDController_v1_0/src"
+
+TRACE::2024-06-21.14:18:19::SCWMssOS::make -C microblaze_0/libsrc/FNDController_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar"
+TRACE::2024-06-21.14:18:19::SCWMssOS:: "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sectio
+TRACE::2024-06-21.14:18:19::SCWMssOS::ns -Wall -Wextra"
+
+TRACE::2024-06-21.14:18:19::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2024-06-21.14:18:19::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-06-21.14:18:19::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-06-21.14:18:19::SCWMssOS::-Wextra"
+
+TRACE::2024-06-21.14:18:19::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2024-06-21.14:18:19::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-06-21.14:18:19::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2024-06-21.14:18:19::SCWMssOS:: -Wextra"
+
+TRACE::2024-06-21.14:18:19::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2024-06-21.14:18:19::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-06-21.14:18:19::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2024-06-21.14:18:19::SCWMssOS::-Wall -Wextra"
+
+TRACE::2024-06-21.14:18:20::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2024-06-21.14:18:20::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-06-21.14:18:20::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-06-21.14:18:20::SCWMssOS::all -Wextra"
+
+TRACE::2024-06-21.14:18:20::SCWMssOS::"Running Make libs in microblaze_0/libsrc/FNDController_v1_0/src"
+
+TRACE::2024-06-21.14:18:20::SCWMssOS::make -C microblaze_0/libsrc/FNDController_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-06-21.14:18:20::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2024-06-21.14:18:20::SCWMssOS::-Wall -Wextra"
+
+TRACE::2024-06-21.14:18:20::SCWMssOS::"Compiling FNDController..."
+
+TRACE::2024-06-21.14:18:21::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2024-06-21.14:18:21::SCWMssOS::make -j --no-print-directory par_libs
+
+TRACE::2024-06-21.14:18:21::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2024-06-21.14:18:21::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-06-21.14:18:21::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-06-21.14:18:21::SCWMssOS::-Wextra"
+
+TRACE::2024-06-21.14:18:21::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2024-06-21.14:18:21::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-06-21.14:18:21::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-06-21.14:18:21::SCWMssOS::-Wextra"
+
+TRACE::2024-06-21.14:18:21::SCWMssOS::"Running Make include in microblaze_0/libsrc/FNDController_v1_0/src"
+
+TRACE::2024-06-21.14:18:21::SCWMssOS::make -C microblaze_0/libsrc/FNDController_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar"
+TRACE::2024-06-21.14:18:21::SCWMssOS:: "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sectio
+TRACE::2024-06-21.14:18:21::SCWMssOS::ns -Wall -Wextra"
+
+TRACE::2024-06-21.14:18:21::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2024-06-21.14:18:21::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-06-21.14:18:21::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-06-21.14:18:21::SCWMssOS::-Wextra"
+
+TRACE::2024-06-21.14:18:21::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2024-06-21.14:18:21::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-06-21.14:18:21::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2024-06-21.14:18:21::SCWMssOS:: -Wextra"
+
+TRACE::2024-06-21.14:18:21::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2024-06-21.14:18:21::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-06-21.14:18:21::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2024-06-21.14:18:21::SCWMssOS::-Wall -Wextra"
+
+TRACE::2024-06-21.14:18:21::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2024-06-21.14:18:21::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-06-21.14:18:21::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-06-21.14:18:21::SCWMssOS::all -Wextra"
+
+TRACE::2024-06-21.14:18:21::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2024-06-21.14:18:21::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-06-21.14:18:21::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2024-06-21.14:18:21::SCWMssOS::xtra"
+
+TRACE::2024-06-21.14:18:21::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2024-06-21.14:18:21::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-06-21.14:18:21::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2024-06-21.14:18:21::SCWMssOS::xtra"
+
+TRACE::2024-06-21.14:18:21::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2024-06-21.14:18:21::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-06-21.14:18:21::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2024-06-21.14:18:21::SCWMssOS::xtra"
+
+TRACE::2024-06-21.14:18:21::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2024-06-21.14:18:21::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2024-06-21.14:18:21::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2024-06-21.14:18:21::SCWMssOS::extra"
+
+TRACE::2024-06-21.14:18:21::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2024-06-21.14:18:21::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2024-06-21.14:18:21::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2024-06-21.14:18:21::SCWMssOS::ll -Wextra"
+
+TRACE::2024-06-21.14:18:21::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2024-06-21.14:18:21::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-06-21.14:18:21::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2024-06-21.14:18:21::SCWMssOS:: -Wextra"
+
+TRACE::2024-06-21.14:18:22::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2024-06-21.14:18:22::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2024-06-21.14:18:22::SCWMssOS::make --no-print-directory archive
+
+TRACE::2024-06-21.14:18:22::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/microblaze_
+TRACE::2024-06-21.14:18:22::SCWMssOS::disable_exceptions.o microblaze_0/lib/print.o microblaze_0/lib/_exit.o microblaze_0/lib/xil_testio.o microblaze_0/lib/microblaz
+TRACE::2024-06-21.14:18:22::SCWMssOS::e_disable_dcache.o microblaze_0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/microblaze_flush_cache_ext.o microblaze_0/
+TRACE::2024-06-21.14:18:22::SCWMssOS::lib/xbram_sinit.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_util.o microblaze_0
+TRACE::2024-06-21.14:18:22::SCWMssOS::/lib/inbyte.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/xuartlite_stats.o microblaze_0/lib/microblaze_exception_handler.o 
+TRACE::2024-06-21.14:18:22::SCWMssOS::microblaze_0/lib/xbram_g.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/lib
+TRACE::2024-06-21.14:18:22::SCWMssOS::/microblaze_disable_interrupts.o microblaze_0/lib/xbram_selftest.o microblaze_0/lib/microblaze_interrupt_handler.o microblaze_0
+TRACE::2024-06-21.14:18:22::SCWMssOS::/lib/microblaze_disable_icache.o microblaze_0/lib/xgpio_g.o microblaze_0/lib/xil_mem.o microblaze_0/lib/microblaze_flush_cache_
+TRACE::2024-06-21.14:18:22::SCWMssOS::ext_range.o microblaze_0/lib/xbram_intr.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xin
+TRACE::2024-06-21.14:18:22::SCWMssOS::tc_g.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/xintc_selftest.o microblaze_0/lib/xintc_l.o microblaze_0/lib/outbyte.o m
+TRACE::2024-06-21.14:18:22::SCWMssOS::icroblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/microblaze_invalidate_dcache_rang
+TRACE::2024-06-21.14:18:22::SCWMssOS::e.o microblaze_0/lib/microblaze_invalidate_cache_ext.o microblaze_0/lib/microblaze_sleep.o microblaze_0/lib/hw_exception_handle
+TRACE::2024-06-21.14:18:22::SCWMssOS::r.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/microblaze_update_dcache.o microblaze
+TRACE::2024-06-21.14:18:22::SCWMssOS::_0/lib/xil_testcache.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/xio.o
+TRACE::2024-06-21.14:18:22::SCWMssOS:: microblaze_0/lib/microblaze_enable_dcache.o microblaze_0/lib/xbram.o microblaze_0/lib/microblaze_invalidate_icache_range.o mic
+TRACE::2024-06-21.14:18:22::SCWMssOS::roblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/errno.o microblaz
+TRACE::2024-06-21.14:18:22::SCWMssOS::e_0/lib/xuartlite_l.o microblaze_0/lib/xintc_options.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/li
+TRACE::2024-06-21.14:18:22::SCWMssOS::b/xil_exception.o microblaze_0/lib/pvr.o microblaze_0/lib/xgpio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/microblaze_up
+TRACE::2024-06-21.14:18:22::SCWMssOS::date_icache.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/xil_clocking.o micr
+TRACE::2024-06-21.14:18:22::SCWMssOS::oblaze_0/lib/xil_assert.o microblaze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/xgpio_extra.o microblaze_0/lib/micro
+TRACE::2024-06-21.14:18:22::SCWMssOS::blaze_enable_icache.o microblaze_0/lib/xintc.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/microblaze_init_icache_range
+TRACE::2024-06-21.14:18:22::SCWMssOS::.o microblaze_0/lib/fcntl.o microblaze_0/lib/xgpio_selftest.o
+
+TRACE::2024-06-21.14:18:22::SCWMssOS::'Finished building libraries'
+
+TRACE::2024-06-21.14:18:22::SCWMssOS::Copying to export directory.
+TRACE::2024-06-21.14:18:22::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-06-21.14:18:22::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-06-21.14:18:22::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2024-06-21.14:18:22::SCWSystem::Completed Processing the sysconfig fndControl
+LOG::2024-06-21.14:18:22::SCWPlatform::Completed generating the artifacts for system configuration fndControl
+TRACE::2024-06-21.14:18:22::SCWPlatform::Started preparing the platform 
+TRACE::2024-06-21.14:18:22::SCWSystem::Writing the bif file for system config fndControl
+TRACE::2024-06-21.14:18:22::SCWSystem::dir created 
+TRACE::2024-06-21.14:18:22::SCWSystem::Writing the bif 
+TRACE::2024-06-21.14:18:22::SCWPlatform::Started writing the spfm file 
+TRACE::2024-06-21.14:18:22::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-06-21.14:18:22::SCWPlatform::Completed generating the platform
+TRACE::2024-06-21.14:18:22::SCWMssOS::Saving the mss changes D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:22::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-06-21.14:18:22::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-06-21.14:18:22::SCWMssOS::Commit changes completed.
+TRACE::2024-06-21.14:18:22::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:22::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:22::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:22::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw
+TRACE::2024-06-21.14:18:22::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:22::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-21.14:18:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-21.14:18:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-21.14:18:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-21.14:18:22::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:22::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-21.14:18:22::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:22::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:22::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:22::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:22::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw
+TRACE::2024-06-21.14:18:22::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:22::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-21.14:18:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-21.14:18:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-21.14:18:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-21.14:18:22::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:22::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-21.14:18:22::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:22::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:22::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:22::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:22::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw
+TRACE::2024-06-21.14:18:22::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:22::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-21.14:18:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-21.14:18:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-21.14:18:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-21.14:18:22::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:22::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-21.14:18:22::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:22::SCWWriter::formatted JSON is {
+	"platformName":	"fndControl",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"fndControl",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/fndControl.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"fndControl",
+	"systems":	[{
+			"systemName":	"fndControl",
+			"systemDesc":	"fndControl",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"fndControl",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"328a85268d3555859f287300827cc465",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-06-21.14:18:22::SCWPlatform::updated the xpfm file.
+TRACE::2024-06-21.14:18:22::SCWPlatform::Trying to open the hw design at D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:22::SCWPlatform::DSA given D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:22::SCWPlatform::DSA absoulate path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:22::SCWPlatform::DSA directory D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw
+TRACE::2024-06-21.14:18:22::SCWPlatform:: Platform Path D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/hw/fndControl.xsa
+TRACE::2024-06-21.14:18:22::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-06-21.14:18:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-06-21.14:18:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-06-21.14:18:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-21.14:18:22::SCWMssOS::Checking the sw design at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-06-21.14:18:22::SCWMssOS::DEBUG:  swdes dump  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-06-21.14:18:22::SCWMssOS::Sw design exists and opened at  D:/FPGA_RISC/vitastest/20240621_MicroBlaze_fnd/vitis/fndControl/microblaze_0/standalone_microblaze_0/bsp/system.mss

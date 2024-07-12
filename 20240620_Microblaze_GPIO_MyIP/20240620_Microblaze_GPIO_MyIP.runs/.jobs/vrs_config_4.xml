@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_1_axi4_lite_test_ip_v1_0_0_synth_1" LaunchDir="D:/FPGA_RISC/20240620_Microblaze_GPIO_MyIP/20240620_Microblaze_GPIO_MyIP.runs/design_1_axi4_lite_test_ip_v1_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+
